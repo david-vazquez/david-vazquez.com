@@ -1,111 +1,74 @@
 ---
-title: ''
+title:
 date: 2026-04-07
 type: landing
-
-design:
-  spacing: "6rem"
 
 sections:
   - block: resume-biography
     id: about
     content:
-      title: ''
       username: david-vazquez
+      text: |
+        I study how machines learn to act in the world.
+    design:
+      css_class: dark
+      background:
+        color: black
+        image:
+          filename: bg-hero.jpg
+          filters:
+            brightness: 0.4
+          size: cover
+          position: center
+          parallax: false
+
+  - block: stats
+    content:
+      items:
+        - statistic: "13K+"
+          description: |
+            Citations
+        - statistic: "140+"
+          description: |
+            Publications
+        - statistic: "4"
+          description: |
+            Patents
+        - statistic: "15+"
+          description: |
+            Years of Research
+    design:
+      layout: minimal
+      css_class: "bg-gray-100 dark:bg-gray-900"
+      spacing:
+        padding: [0, 0, 0, 0]
+
+  - block: markdown
+    content:
+      title: Welcome
+      subtitle: ''
+      text: |
+        I am Research Director at [ServiceNow](https://www.servicenow.com/research/), where I lead the Foundational AI Research (FAR) team working on foundation models, AI agents, RL reasoning, and enterprise reliability (safety and security). I am also Adjunct Professor at [Polytechnique Montréal](https://www.polymtl.ca/) (affiliated with [MILA](https://mila.quebec/)) and the [Universitat Autònoma de Barcelona](https://www.uab.cat/) (affiliated with [CVC](https://www.cvc.uab.es/)). Our team publishes impactful work at top AI venues and releases open-source models, benchmarks, and tools used by the research community worldwide.
+
+        **I am always looking for talented interns and full-time researchers to join my team at ServiceNow, as well as PhD and Master's students at the university.** If you are excited about foundation models, AI agents, or open science, [get in touch](mailto:david.vazquez@mila.quebec).
+
+        <div class="mt-4 flex items-center text-sm font-medium text-primary-500"><a href="/bio/" style="text-decoration:none !important;color:inherit !important">Read full bio<svg class="ml-1 w-4 h-4 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a></div>
+    design:
+      columns: '1'
 
   - block: collection
     id: news
     content:
       title: Recent News
       subtitle: ''
-      text: ''
-      page_type: news
       count: 5
-      offset: 0
-      order: desc
+      filters:
+        folders:
+          - news
+        author: ""
+        category: ""
+        tag: ""
     design:
       view: date-title-summary
-
-  - block: collection
-    id: projects
-    content:
-      title: Research
-      subtitle: Current and past projects
-      text: ''
-      filters:
-        folders:
-          - project
-      sort_by: 'Date'
-      sort_ascending: false
-    design:
-      view: article-grid
-
-  - block: collection
-    id: publications
-    content:
-      title: Selected Publications
-      subtitle: '[Full list on Google Scholar](https://scholar.google.ca/citations?user=1jHvtfsAAAAJ)'
-      text: ''
-      filters:
-        folders:
-          - publication
-      count: 20
-      sort_by: 'Date'
-      sort_ascending: false
-    design:
-      view: citation
-
-  - block: markdown
-    id: team
-    content:
-      title: Team
-      subtitle: Current members and alumni
-      text: |
-        See the [full team page]({{< ref "/team" >}}) for current PhD interns, thesis students, and alumni placements.
-
-        **Alumni highlights:** Meta AI, Google, Apple, NUS, UC Berkeley, NVIDIA, MIT, and founders of QuiverAI, Tensoreye, SeaX AI, and Theker.
-
-  - block: markdown
-    id: teaching
-    content:
-      title: Teaching
-      text: |
-        **Adjunct Professor, Polytechnique Montréal** (2025 to Present)
-        Co supervising doctoral students in multimodal AI and AI agents.
-
-        **Adjunct Professor, UAB** (2017 to Present)
-        Teaching graduate courses in the Master's in Computer Vision and AI.
-
-        See the [full teaching page]({{< ref "/teaching" >}}) for course history and program development.
-
-  - block: markdown
-    id: service
-    content:
-      title: Academic Service
-      text: |
-        **Board Memberships:**
-        ELLIS Member (2019 to Present) · NSERC TAC Reviewer (2025 to Present) · QueerTech Inclusive Tech Advisory Board (2025 to Present)
-
-        **Workshop Organization:**
-        GoodData at AAAI 2025 · L3D-IVU at CVPR 2022 to 2023 · CLVision at CVPR 2020 to 2023 · GroundedML at ICLR 2022 · TASK-CV at ICCV/ECCV 2014 to 2021 · WAD at CVPR 2018 to 2021
-
-        **Area Chair / Reviewer:**
-        NeurIPS · ICLR · ICML · CVPR · ECCV · ICCV · ACL · TMLR
-
-  - block: contact-info
-    id: contact
-    content:
-      title: Contact
-      subtitle: ''
-      email: david.vazquez@mila.quebec
-      address:
-        lines:
-          - Montreal, Quebec, Canada
-      social:
-        - icon: hero/academic-cap
-          url: 'https://scholar.google.ca/citations?user=1jHvtfsAAAAJ'
-        - icon: brands/linkedin
-          url: 'https://www.linkedin.com/in/dvazquezcvc/'
-        - icon: brands/x-twitter
-          url: 'https://x.com/dvazquezcv'
+      columns: '1'
 ---

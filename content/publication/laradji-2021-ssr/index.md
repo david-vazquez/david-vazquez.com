@@ -1,0 +1,24 @@
+---
+title: 'SSR: Semi-Supervised Soft Rasterizer for Single-View 2D to 3D Reconstruction'
+date: '2021-01-01'
+draft: false
+authors:
+  - Issam Laradji
+  - Pau Rodrı́guez
+  - David Vázquez
+  - Derek Nowrouzezahrai
+publication_types:
+  - 'paper-conference'
+publication: '*Workshop at International Conference on Computer Vision (ICCV)*'
+abstract: 'Recent work has made significant progress in learning object meshes with weak supervision. Soft Rasterization methods have achieved accurate 3D reconstruction from 2D images with viewpoint supervision only. In this work, we further reduce the labeling effort by allowing such 3D reconstruction methods leverage unlabeled images. In order to obtain the viewpoints for these unlabeled images, we propose to use a Siamese network that takes two images as input and outputs whether they correspond to the same viewpoint. During training, we minimize the cross entropy loss to maximize the probability of predicting whether a pair of images belong to the same viewpoint or not. To get the viewpoint of a new image, we compare it against different viewpoints obtained from the training samples and select the viewpoint with the highest matching probability. We finally label the unlabeled images with the most confident predicted viewpoint and train a deep network that has a differentiable rasterization layer. Our experiments show that even labeling only two objects yields significant improvement in IoU for ShapeNet when leveraging unlabeled examples.'
+featured: false
+
+links:
+  - type: slides
+    url: 'https://www.servicenow.com/research/publication/issam-h.-laradji-ssr-iccv-workshops2021/slides.pdf'
+  - name: arXiv
+    url: 'https://arxiv.org/pdf/2108.09593'
+image:
+  focal_point: ''
+  preview_only: false
+---

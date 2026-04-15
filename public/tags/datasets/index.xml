@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datasets | David Vázquez</title>
+    <link>https://www.david-vazquez.com/tags/datasets/</link>
+      <atom:link href="https://www.david-vazquez.com/tags/datasets/index.xml" rel="self" type="application/rss+xml" />
+    <description>Datasets</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.david-vazquez.com/media/icon_hu_a3642885bc94ba2d.png</url>
+      <title>Datasets</title>
+      <link>https://www.david-vazquez.com/tags/datasets/</link>
+    </image>
+    
+    <item>
+      <title>BigDocs</title>
+      <link>https://www.david-vazquez.com/project/bigdocs/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/project/bigdocs/</guid>
+      <description>&lt;p&gt;BigDocs is a large scale, open, and permissively licensed dataset for training multimodal models on document understanding and code generation tasks. Published at ICLR 2025.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SYNTHIA</title>
+      <link>https://www.david-vazquez.com/project/synthia/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/project/synthia/</guid>
+      <description>&lt;p&gt;SYNTHIA is a large collection of synthetic images for semantic segmentation of urban scenes, generated using a video game engine. Published at CVPR 2016 and widely adopted in the autonomous driving research community. Licensed for commercial use by Intel, Audi, Huawei, Toyota, and Samsung.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

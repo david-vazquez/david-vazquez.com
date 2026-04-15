@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News | David Vázquez</title>
+    <link>https://www.david-vazquez.com/news/</link>
+      <atom:link href="https://www.david-vazquez.com/news/index.xml" rel="self" type="application/rss+xml" />
+    <description>News</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.david-vazquez.com/media/icon_hu_a3642885bc94ba2d.png</url>
+      <title>News</title>
+      <link>https://www.david-vazquez.com/news/</link>
+    </image>
+    
+    <item>
+      <title>We&#39;re hiring researchers and engineers</title>
+      <link>https://www.david-vazquez.com/news/hiring/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/hiring/</guid>
+      <description>&lt;p&gt;The Foundational AI Research team at ServiceNow Research is hiring Senior Research Engineers and Scientists in Montreal. Research areas include AI agents, LLMs, reinforcement learning, time series analysis, and security. &lt;a href=&#34;https://jobs.smartrecruiters.com/ServiceNow/744000048939498&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Apply here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Presenting at ICLR 2026 in Rio de Janeiro</title>
+      <link>https://www.david-vazquez.com/news/iclr-2026/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/iclr-2026/</guid>
+      <description>&lt;p&gt;Our team presented multiple papers at ICLR 2026 in Rio de Janeiro, including work on multimodal models, web agents, and enterprise AI benchmarks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NSERC Discovery Grant awarded for Indigenous language AI tools</title>
+      <link>https://www.david-vazquez.com/news/nserc-grant/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/nserc-grant/</guid>
+      <description>&lt;p&gt;Awarded an NSERC Discovery Grant funding research on multimodal AI translation and literacy tools for the Matsigenka and Inuktitut communities, conducted through Polytechnique Montréal in collaboration with MILA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AlignVLM accepted at NeurIPS 2025</title>
+      <link>https://www.david-vazquez.com/news/alignvlm-neurips/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/alignvlm-neurips/</guid>
+      <description>&lt;p&gt;Our paper &amp;ldquo;AlignVLM: Bridging Vision and Language Latent Spaces for Multimodal Understanding&amp;rdquo; has been accepted at NeurIPS 2025.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Appointed Adjunct Professor at Polytechnique Montréal</title>
+      <link>https://www.david-vazquez.com/news/polytechnique-appointment/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/polytechnique-appointment/</guid>
+      <description>&lt;p&gt;Joined Polytechnique Montréal as Adjunct Professor affiliated with MILA, co supervising doctoral students and leading research on multimodal AI tools for Indigenous language preservation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EnterpriseOps-Gym Released</title>
+      <link>https://www.david-vazquez.com/news/enterpriseops-gym/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/enterpriseops-gym/</guid>
+      <description>&lt;p&gt;Our new benchmark for evaluating stateful agentic planning in enterprise settings is now public. 1,150 tasks across 8 domains. &lt;a href=&#34;https://arxiv.org/abs/2505.00000&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; · &lt;a href=&#34;https://github.com/ServiceNow/EnterpriseOps-Gym&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>StarVector accepted at CVPR 2025</title>
+      <link>https://www.david-vazquez.com/news/starvector-cvpr/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/starvector-cvpr/</guid>
+      <description>&lt;p&gt;Our paper &amp;ldquo;StarVector: Generating Scalable Vector Graphics Code from Images&amp;rdquo; has been accepted at CVPR 2025. Former intern Juan A. Rodriguez co-founded &lt;a href=&#34;https://quiver.ai&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QuiverAI&lt;/a&gt; based on this research, raising an $8.3M seed round led by Andreessen Horowitz.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BigDocs accepted at ICLR 2025</title>
+      <link>https://www.david-vazquez.com/news/bigdocs-iclr/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/bigdocs-iclr/</guid>
+      <description>&lt;p&gt;Our paper &amp;ldquo;BigDocs: An Open Dataset for Training Multimodal Models on Document and Code Tasks&amp;rdquo; has been accepted at ICLR 2025. &lt;a href=&#34;https://arxiv.org/abs/2412.04626&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; · &lt;a href=&#34;https://github.com/ServiceNow/BigDocs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WorkArena accepted at ICML 2024</title>
+      <link>https://www.david-vazquez.com/news/workarena-icml/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/workarena-icml/</guid>
+      <description>&lt;p&gt;Our paper &amp;ldquo;WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?&amp;rdquo; has been accepted at ICML 2024. &lt;a href=&#34;https://arxiv.org/abs/2403.07718&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; · &lt;a href=&#34;https://github.com/ServiceNow/WorkArena&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | David Vázquez</title>
+    <link>https://www.david-vazquez.com/publication_types/1/</link>
+      <atom:link href="https://www.david-vazquez.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.david-vazquez.com/media/icon_hu_a3642885bc94ba2d.png</url>
+      <title>1</title>
+      <link>https://www.david-vazquez.com/publication_types/1/</link>
+    </image>
+    
+    <item>
+      <title>AlignVLM: Bridging Vision and Language Latent Spaces for Multimodal Document Understanding</title>
+      <link>https://www.david-vazquez.com/publication/masry-2025-alignvlm/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/masry-2025-alignvlm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BigDocs: An Open Dataset for Training Multimodal Models on Document and Code Tasks</title>
+      <link>https://www.david-vazquez.com/publication/rodriguez-2025-bigdocs/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rodriguez-2025-bigdocs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StarVector: Generating Scalable Vector Graphics Code from Images and Text</title>
+      <link>https://www.david-vazquez.com/publication/rodriguez-2025-starvector/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rodriguez-2025-starvector/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UI-Vision: A Desktop-Centric GUI Benchmark for Visual Perception and Interaction</title>
+      <link>https://www.david-vazquez.com/publication/nayak-2025-uivision/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/nayak-2025-uivision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InsightBench: Evaluating Business Analytics Agents through Multi-Step Insight Generation</title>
+      <link>https://www.david-vazquez.com/publication/sahu-2024-insightbench/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/sahu-2024-insightbench/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RepLiQA: A Question-Answering Dataset for Benchmarking LLMs on Unseen Reference Content</title>
+      <link>https://www.david-vazquez.com/publication/monteiro-2024-repliqa/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/monteiro-2024-repliqa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?</title>
+      <link>https://www.david-vazquez.com/publication/drouin-2024-workarena/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/drouin-2024-workarena/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constraining Representations Yields Models That Know What They Don&#39;t Know</title>
+      <link>https://www.david-vazquez.com/publication/monteiro-2023-constraining/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/monteiro-2023-constraining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FigGen: Text to Scientific Figure Generation</title>
+      <link>https://www.david-vazquez.com/publication/rodriguez-2023-figgen/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rodriguez-2023-figgen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Fast Adaptation and Knowledge Accumulation: A New Approach to Continual Learning</title>
+      <link>https://www.david-vazquez.com/publication/caccia-2020-osaka/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/caccia-2020-osaka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synbols: Probing Learning Algorithms with Synthetic Datasets</title>
+      <link>https://www.david-vazquez.com/publication/lacoste-2020-synbols/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/lacoste-2020-synbols/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where Are the Blobs: Counting by Localization with Point Supervision</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2018-blobs/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2018-blobs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Random Forests of Local Experts for Pedestrian Detection</title>
+      <link>https://www.david-vazquez.com/publication/marin-2013-randomforests/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/marin-2013-randomforests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Appearance in Virtual Scenarios for Pedestrian Detection</title>
+      <link>https://www.david-vazquez.com/publication/marin-2010-learning/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/marin-2010-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,19 +1,28 @@
 appearance:
-  theme_day: minimal
-  theme_night: dark
-  font: native
-  font_size: L
+  mode: system
   color: blue
+  font: serif
+
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: 'David Vázquez, Research Director at ServiceNow Research. AI agents, multimodal AI, enterprise AI.'
+    twitter: 'dvazquezcv'
+  analytics:
+    google_analytics: ''
+  verification:
+    google: ''
 
 header:
   navbar:
     enable: true
-    align: r
-    show_logo: true
-    show_language: false
-    show_day_night: true
+    block: "navbar"
     show_search: true
-    highlight_active_link: true
+    show_theme_chooser: true
+    logo:
+      text: "David Vázquez"
 
 footer:
   copyright:
@@ -24,38 +33,7 @@ locale:
   time_format: '3:04 PM'
 
 features:
-  syntax_highlighter:
-    enable: false
   math:
     enable: false
   privacy_pack:
     enable: false
-
-seo:
-  site_type: Person
-  local_business_type: ''
-  org_name: ''
-  description: 'David Vázquez, Research Director at ServiceNow Research. AI agents, multimodal AI, enterprise AI.'
-  twitter: 'dvazquezcv'
-
-marketing:
-  analytics:
-    google_analytics: ''
-
-contact_links:
-  - icon: google-scholar
-    icon_pack: ai
-    name: Google Scholar
-    link: 'https://scholar.google.ca/citations?user=1jHvtfsAAAAJ'
-  - icon: github
-    icon_pack: fab
-    name: GitHub
-    link: 'https://github.com/david-vazquez'
-  - icon: linkedin
-    icon_pack: fab
-    name: LinkedIn
-    link: 'https://www.linkedin.com/in/dvazquezcvc/'
-  - icon: twitter
-    icon_pack: fab
-    name: X (Twitter)
-    link: 'https://x.com/dvazquezcv'

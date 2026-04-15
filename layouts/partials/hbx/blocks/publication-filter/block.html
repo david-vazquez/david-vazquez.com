@@ -1,0 +1,603 @@
+{{/* Hugo Blox: Publication Filter – ServiceNow-style sidebar with search & faceted filtering */}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{/* Collect all publications */}}
+{{ $pubs := where site.RegularPages "Section" "publication" }}
+{{ $pubs = sort $pubs "Date" "desc" }}
+
+{{/* Venue normalization map for edge cases */}}
+{{ $venueNorm := dict
+  "Part B" "IEEE Trans. SMC"
+  "T-PAMI" "PAMI"
+  "Workshop @ NIPS" "Workshop @ NeurIPS"
+  "CVPR Workshop" "Workshop @ CVPR"
+  "Workshop at AAAI: Creative AI Across Modalities" "Workshop @ AAAI"
+  "MastersThesis" "Master's Thesis"
+  "Nature Scientific reports" "Nature Scientific Reports"
+}}
+
+{{/* Build facet data */}}
+{{ $types := dict }}
+{{ $years := dict }}
+{{ $venues := dict }}
+
+{{ range $pubs }}
+  {{/* Types – detect workshops from venue name */}}
+  {{ $isWorkshop := false }}
+  {{ with .Params.publication }}
+    {{ $raw := . | replaceRE `^\*|\*$` "" | replaceRE `^\*|\*$` "" }}
+    {{ if findRE `(?i)^workshop|(?i)^CVPR Workshop` $raw }}{{ $isWorkshop = true }}{{ end }}
+  {{ end }}
+  {{ range .Params.publication_types }}
+    {{ $label := . }}
+    {{ if or (eq . "paper-conference") (eq . "1") }}{{ $label = "Conference Paper" }}
+    {{ else if or (eq . "article-journal") (eq . "2") }}{{ $label = "Journal Article" }}
+    {{ else if eq . "manuscript" }}{{ $label = "Preprint" }}
+    {{ else if or (eq . "book") (eq . "5") (eq . "6") }}{{ $label = "Book / Chapter" }}
+    {{ else if or (eq . "thesis") (eq . "7") }}{{ $label = "Thesis" }}
+    {{ else if eq . "patent" }}{{ $label = "Patent" }}
+    {{ else if eq . "3" }}{{ $label = "Preprint" }}
+    {{ end }}
+    {{ if $isWorkshop }}{{ $label = "Workshop" }}{{ end }}
+    {{ $count := index $types $label | default 0 }}
+    {{ $types = merge $types (dict $label (add $count 1)) }}
+  {{ end }}
+
+  {{/* Years */}}
+  {{ $y := string .Date.Year }}
+  {{ $count := index $years $y | default 0 }}
+  {{ $years = merge $years (dict $y (add $count 1)) }}
+
+  {{/* Venues – abbreviate to acronym when available */}}
+  {{ with .Params.publication }}
+    {{ $v := . | replaceRE `^\*|\*$` "" | replaceRE `^\*|\*$` "" }}
+    {{ if $v }}
+      {{/* Extract acronym from parentheses, e.g. "Conference on X (CONF)" → "CONF" */}}
+      {{ $acro := findRE `\(([^)]+)\)\s*$` $v }}
+      {{ if $acro }}
+        {{ $short := index $acro 0 | replaceRE `^\(|\)$` "" }}
+        {{ if findRE `(?i)^workshop` $v }}
+          {{ $v = printf "Workshop @ %s" $short }}
+        {{ else }}
+          {{ $v = $short }}
+        {{ end }}
+      {{ else if hasPrefix $v "arXiv" }}
+        {{ $v = "arXiv" }}
+      {{ end }}
+      {{/* Apply normalization map */}}
+      {{ with index $venueNorm $v }}{{ $v = . }}{{ end }}
+      {{ $count := index $venues $v | default 0 }}
+      {{ $venues = merge $venues (dict $v (add $count 1)) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="pub-filter-container">
+  <div class="pub-filter-layout">
+    {{/* ══════════ LEFT SIDEBAR ══════════ */}}
+    <aside class="pub-filter-sidebar" id="pub-sidebar">
+      <div class="pub-sidebar-title">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+        Filter
+      </div>
+      <button class="pub-sidebar-toggle" id="pub-sidebar-toggle" aria-label="Toggle filters">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+        <span>Filter</span>
+      </button>
+
+      <div class="pub-sidebar-body" id="pub-sidebar-body">
+        {{/* Search box */}}
+        <div class="pub-filter-search">
+          <input type="text" id="pub-search" placeholder="Search within results..." autocomplete="off" />
+        </div>
+
+        {{/* Active filters */}}
+        <div class="pub-active-filters" id="pub-active-filters" style="display:none">
+          <div class="pub-active-filters-header">
+            <span>Active filters</span>
+            <button id="pub-clear-all" class="pub-clear-all">Clear all</button>
+          </div>
+          <div id="pub-active-tags"></div>
+        </div>
+
+        {{/* Type filter */}}
+        <div class="pub-filter-group">
+          <button class="pub-filter-group-toggle" data-target="filter-type">
+            <span>Type</span>
+            <svg class="pub-chevron" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <ul class="pub-filter-list" id="filter-type">
+            {{ range $label, $count := $types }}
+            <li>
+              <label class="pub-filter-option">
+                <input type="checkbox" data-facet="type" value="{{ $label }}" />
+                <span class="pub-filter-label">{{ $label }}</span>
+                <span class="pub-filter-count">({{ $count }})</span>
+              </label>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+
+        {{/* Year filter */}}
+        <div class="pub-filter-group">
+          <button class="pub-filter-group-toggle" data-target="filter-year">
+            <span>Year</span>
+            <svg class="pub-chevron" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <ul class="pub-filter-list pub-filter-list-long" id="filter-year">
+            {{ $yearKeys := slice }}
+            {{ range $y, $_ := $years }}{{ $yearKeys = $yearKeys | append $y }}{{ end }}
+            {{ $yearKeys = sort $yearKeys "value" "desc" }}
+            {{ range $yearKeys }}
+              {{ $count := index $years . }}
+            <li>
+              <label class="pub-filter-option">
+                <input type="checkbox" data-facet="year" value="{{ . }}" />
+                <span class="pub-filter-label">{{ . }}</span>
+                <span class="pub-filter-count">({{ $count }})</span>
+              </label>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+
+        {{/* Venue filter */}}
+        <div class="pub-filter-group">
+          <button class="pub-filter-group-toggle" data-target="filter-venue">
+            <span>Venue</span>
+            <svg class="pub-chevron" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <ul class="pub-filter-list pub-filter-list-long" id="filter-venue">
+            {{/* Sort venues by count desc */}}
+            {{ $venueSlice := slice }}
+            {{ range $v, $c := $venues }}
+              {{ $venueSlice = $venueSlice | append (dict "name" $v "count" $c) }}
+            {{ end }}
+            {{ $venueSlice = sort $venueSlice "count" "desc" }}
+            {{ range $venueSlice }}
+            <li>
+              <label class="pub-filter-option">
+                <input type="checkbox" data-facet="venue" value="{{ .name }}" />
+                <span class="pub-filter-label">{{ .name }}</span>
+                <span class="pub-filter-count">({{ .count }})</span>
+              </label>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+
+        {{/* Author filter removed */}}
+      </div>
+    </aside>
+
+    {{/* ══════════ RESULTS ══════════ */}}
+    <main class="pub-filter-results">
+      <div class="pub-filter-header">
+        <h1 class="pub-filter-title">{{ $block.content.title | default "Publications" }}</h1>
+        {{ with $block.content.scholar_url }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="pub-scholar-link">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+            Google Scholar
+          </a>
+        {{ end }}
+      </div>
+      <div class="pub-results-status">
+        <span id="pub-result-count">{{ len $pubs }}</span> publications
+      </div>
+
+      <div id="pub-list">
+        {{ $currentYear := "" }}
+        {{ range $pubs }}
+        {{ $thisYear := string .Date.Year }}
+        {{ if ne $thisYear $currentYear }}
+          {{ $currentYear = $thisYear }}
+          <h2 class="pub-year-heading" data-year="{{ $thisYear }}">{{ $thisYear }}</h2>
+        {{ end }}
+        {{ $type_raw := index .Params.publication_types 0 | default "" }}
+        {{ $type_label := $type_raw }}
+        {{ if or (eq $type_raw "paper-conference") (eq $type_raw "1") }}{{ $type_label = "Conference Paper" }}
+        {{ else if or (eq $type_raw "article-journal") (eq $type_raw "2") }}{{ $type_label = "Journal Article" }}
+        {{ else if or (eq $type_raw "manuscript") (eq $type_raw "3") }}{{ $type_label = "Preprint" }}
+        {{ else if or (eq $type_raw "book") (eq $type_raw "5") (eq $type_raw "6") }}{{ $type_label = "Book / Chapter" }}
+        {{ else if or (eq $type_raw "thesis") (eq $type_raw "7") }}{{ $type_label = "Thesis" }}
+        {{ else if eq $type_raw "patent" }}{{ $type_label = "Patent" }}
+        {{ end }}
+        {{ $venueFull := .Params.publication | default "" | replaceRE `^\*|\*$` "" | replaceRE `^\*|\*$` "" }}
+        {{ if findRE `(?i)^workshop|(?i)^CVPR Workshop` $venueFull }}{{ $type_label = "Workshop" }}{{ end }}
+        {{ $venue := $venueFull }}
+        {{ $acro := findRE `\(([^)]+)\)\s*$` $venueFull }}
+        {{ if $acro }}
+          {{ $short := index $acro 0 | replaceRE `^\(|\)$` "" }}
+          {{ if findRE `(?i)^workshop` $venueFull }}
+            {{ $venue = printf "Workshop @ %s" $short }}
+          {{ else }}
+            {{ $venue = $short }}
+          {{ end }}
+        {{ else if hasPrefix $venueFull "arXiv" }}
+          {{ $venue = "arXiv" }}
+        {{ end }}
+        {{ with index $venueNorm $venue }}{{ $venue = . }}{{ end }}
+        {{ $authorList := delimit .Params.authors ", " }}
+        <article class="pub-item"
+                 data-type="{{ $type_label }}"
+                 data-year="{{ .Date.Year }}"
+                 data-venue="{{ $venue }}"
+                 data-authors="{{ $authorList }}"
+                 data-title="{{ .Title }}"
+                 data-search="{{ .Title | lower }} {{ $authorList | lower }} {{ $venue | lower }} {{ .Params.abstract | default "" | lower }}">
+
+          {{ $thumb := .Resources.GetMatch "featured*" }}
+          {{ with $thumb }}
+            {{ $img := .Fill "120x90 Center webp" }}
+            <a href="{{ $.RelPermalink }}" class="pub-item-thumb" tabindex="-1">
+              <img src="{{ $img.RelPermalink }}" width="120" height="90" alt="" loading="lazy">
+            </a>
+          {{ end }}
+          <div class="pub-item-body">
+            <h3 class="pub-item-title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+            <div class="pub-item-authors">{{ $authorList }}</div>
+            <div class="pub-item-venue">
+              {{- with $venueFull }}<em>{{ . }}</em>, {{ end -}}
+              {{ .Date.Year }}
+            </div>
+            <div class="pub-item-links">
+              {{ $typeLabelMap := dict "pdf" "PDF" "preprint" "PDF" "video" "Video" "code" "Code" "slides" "Slides" "poster" "Poster" "dataset" "Dataset" "doi" "DOI" "site" "Site" "source" "Source" }}
+              {{ $pdfTypes := slice "pdf" "preprint" }}
+              {{ $otherLinks := slice }}
+              {{ $pdfLinks := slice }}
+              {{ range .Params.links }}
+                {{ if .url }}
+                  {{ $label := .name | default .label }}
+                  {{ if not $label }}{{ $label = index $typeLabelMap (.type | default "") | default "Link" }}{{ end }}
+                  {{ if findRE `(?i)arxiv` $label }}{{ $label = "PDF" }}{{ end }}
+                  {{ $entry := dict "url" .url "label" $label "type" (.type | default "") }}
+                  {{ if or (in $pdfTypes (.type | default "")) (eq $label "PDF") }}
+                    {{ $pdfLinks = $pdfLinks | append $entry }}
+                  {{ else }}
+                    {{ $otherLinks = $otherLinks | append $entry }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+              {{/* 1. Details */}}
+              <a href="{{ .RelPermalink }}" class="pub-link">Details</a>
+              {{/* 2. PDF */}}
+              {{ range $pdfLinks }}
+                <a href="{{ .url }}" target="_blank" rel="noopener" class="pub-link">{{ .label }}</a>
+              {{ end }}
+              {{/* 3. Other links (video, code, slides, etc.) */}}
+              {{ range $otherLinks }}
+                {{ if eq .type "video" }}
+                  <button type="button" class="pub-link pub-video-btn" data-video="{{ .url }}">{{ .label }}</button>
+                {{ else }}
+                  <a href="{{ .url }}" target="_blank" rel="noopener" class="pub-link">{{ .label }}</a>
+                {{ end }}
+              {{ end }}
+              {{/* 4. Cite */}}
+              {{ $bib := .Resources.GetMatch "cite.bib" }}
+              {{ with $bib }}
+                <button type="button" class="pub-link pub-cite-btn" data-bib="{{ .Content | htmlEscape }}">Cite</button>
+              {{ end }}
+            </div>
+          </div>
+
+          <span class="pub-item-type-badge">{{ $type_label }}</span>
+        </article>
+        {{ end }}
+      </div>
+
+      <div id="pub-no-results" class="pub-no-results" style="display:none">
+        No publications match your current filters.
+      </div>
+    </main>
+  </div>
+</div>
+
+{{/* Video modal */}}
+<div id="pub-video-modal" class="pub-cite-modal" style="display:none">
+  <div class="pub-cite-backdrop"></div>
+  <div class="pub-cite-dialog pub-video-dialog">
+    <div class="pub-cite-header">
+      <span id="pub-video-title">Video</span>
+      <button id="pub-video-close" class="pub-cite-close" aria-label="Close">&times;</button>
+    </div>
+    <div class="pub-video-body">
+      <iframe id="pub-video-iframe" src="" frameborder="0" allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+      </iframe>
+    </div>
+  </div>
+</div>
+
+{{/* Cite modal */}}
+<div id="pub-cite-modal" class="pub-cite-modal" style="display:none">
+  <div class="pub-cite-backdrop"></div>
+  <div class="pub-cite-dialog">
+    <div class="pub-cite-header">
+      <span>BibTeX</span>
+      <button id="pub-cite-close" class="pub-cite-close" aria-label="Close">&times;</button>
+    </div>
+    <pre class="pub-cite-content" id="pub-cite-content"></pre>
+    <button id="pub-cite-copy" class="pub-cite-copy">Copy to clipboard</button>
+  </div>
+</div>
+
+<script>
+(function() {
+  const items = document.querySelectorAll('.pub-item');
+  const searchInput = document.getElementById('pub-search');
+  const countEl = document.getElementById('pub-result-count');
+  const noResults = document.getElementById('pub-no-results');
+  const activeFiltersEl = document.getElementById('pub-active-filters');
+  const activeTagsEl = document.getElementById('pub-active-tags');
+  const clearAllBtn = document.getElementById('pub-clear-all');
+  const checkboxes = document.querySelectorAll('.pub-filter-option input[type="checkbox"]');
+
+  // Sidebar toggle (mobile)
+  const sidebarToggle = document.getElementById('pub-sidebar-toggle');
+  const sidebarBody = document.getElementById('pub-sidebar-body');
+  sidebarToggle.addEventListener('click', function() {
+    sidebarBody.classList.toggle('open');
+    sidebarToggle.classList.toggle('active');
+  });
+
+  // Collapsible filter groups
+  document.querySelectorAll('.pub-filter-group-toggle').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      const target = document.getElementById(btn.dataset.target);
+      target.classList.toggle('collapsed');
+      btn.classList.toggle('collapsed');
+    });
+  });
+
+  // "Show more" for long lists
+  document.querySelectorAll('.pub-filter-list-long').forEach(function(list) {
+    const allItems = list.querySelectorAll('li');
+    const VISIBLE = 5;
+    if (allItems.length > VISIBLE) {
+      allItems.forEach(function(li, i) {
+        if (i >= VISIBLE) li.classList.add('pub-hidden-item');
+      });
+      const moreBtn = document.createElement('li');
+      moreBtn.innerHTML = '<button class="pub-show-more">Show all (' + allItems.length + ')</button>';
+      list.appendChild(moreBtn);
+      moreBtn.querySelector('button').addEventListener('click', function() {
+        allItems.forEach(function(li) { li.classList.remove('pub-hidden-item'); });
+        moreBtn.remove();
+      });
+    }
+  });
+
+  function getActiveFilters() {
+    const filters = {};
+    checkboxes.forEach(function(cb) {
+      if (cb.checked) {
+        const facet = cb.dataset.facet;
+        if (!filters[facet]) filters[facet] = [];
+        filters[facet].push(cb.value);
+      }
+    });
+    return filters;
+  }
+
+  // Check if an item matches a set of filters, optionally excluding one facet
+  function itemMatchesFilters(item, filters, excludeFacet) {
+    var facets = ['type', 'year', 'venue'];
+    for (var i = 0; i < facets.length; i++) {
+      var f = facets[i];
+      if (f === excludeFacet || !filters[f]) continue;
+      if (f === 'author') {
+        var pubAuthors = item.dataset.authors;
+        var anyMatch = filters[f].some(function(a) { return pubAuthors.indexOf(a) !== -1; });
+        if (!anyMatch) return false;
+      } else {
+        var val = f === 'type' ? item.dataset.type : f === 'year' ? item.dataset.year : item.dataset.venue;
+        if (filters[f].indexOf(val) === -1) return false;
+      }
+    }
+    return true;
+  }
+
+  // Update each facet's options based on all OTHER active facets
+  function updateDependentFacets(filters) {
+    var facets = ['type', 'year', 'venue'];
+    // For each facet, count values from items matching all other facets
+    var countsByFacet = {};
+    facets.forEach(function(f) {
+      var counts = {};
+      items.forEach(function(item) {
+        if (!itemMatchesFilters(item, filters, f)) return;
+        if (f === 'author') {
+          item.dataset.authors.split(', ').forEach(function(a) {
+            if (a) counts[a] = (counts[a] || 0) + 1;
+          });
+        } else {
+          var val = f === 'type' ? item.dataset.type : f === 'year' ? item.dataset.year : item.dataset.venue;
+          if (val) counts[val] = (counts[val] || 0) + 1;
+        }
+      });
+      countsByFacet[f] = counts;
+    });
+
+    // Update visibility and counts for all checkboxes
+    checkboxes.forEach(function(cb) {
+      var facet = cb.dataset.facet;
+      var counts = countsByFacet[facet];
+      if (!counts) return;
+      var li = cb.closest('li');
+      var count = counts[cb.value] || 0;
+      if (count === 0) {
+        li.style.display = 'none';
+        cb.checked = false;
+      } else {
+        li.style.display = '';
+      }
+      var countSpan = li.querySelector('.pub-filter-count');
+      if (countSpan) countSpan.textContent = '(' + count + ')';
+    });
+  }
+
+  function applyFilters() {
+    const filters = getActiveFilters();
+    const query = searchInput.value.toLowerCase().trim();
+    let visible = 0;
+
+    // Update dependent facets based on type selection
+    updateDependentFacets(filters);
+
+    // Re-read filters in case some were unchecked by updateDependentFacets
+    const activeFilters = getActiveFilters();
+
+    items.forEach(function(item) {
+      let show = true;
+
+      // Text search
+      if (query && item.dataset.search.indexOf(query) === -1) {
+        show = false;
+      }
+
+      // Facet filters (OR within a facet, AND across facets)
+      if (show && activeFilters.type) {
+        if (activeFilters.type.indexOf(item.dataset.type) === -1) show = false;
+      }
+      if (show && activeFilters.year) {
+        if (activeFilters.year.indexOf(item.dataset.year) === -1) show = false;
+      }
+      if (show && activeFilters.venue) {
+        if (activeFilters.venue.indexOf(item.dataset.venue) === -1) show = false;
+      }
+      if (show && activeFilters.author) {
+        const pubAuthors = item.dataset.authors;
+        const anyMatch = activeFilters.author.some(function(a) {
+          return pubAuthors.indexOf(a) !== -1;
+        });
+        if (!anyMatch) show = false;
+      }
+
+      item.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    countEl.textContent = visible;
+    noResults.style.display = visible === 0 ? '' : 'none';
+
+    // Show/hide year headings based on visible items under each
+    document.querySelectorAll('.pub-year-heading').forEach(function(heading) {
+      var year = heading.dataset.year;
+      var hasVisible = false;
+      var sibling = heading.nextElementSibling;
+      while (sibling && !sibling.classList.contains('pub-year-heading')) {
+        if (sibling.classList.contains('pub-item') && sibling.style.display !== 'none') {
+          hasVisible = true;
+          break;
+        }
+        sibling = sibling.nextElementSibling;
+      }
+      heading.style.display = hasVisible ? '' : 'none';
+    });
+
+    // Active filter tags
+    const hasFilters = Object.keys(activeFilters).length > 0 || query;
+    activeFiltersEl.style.display = hasFilters ? '' : 'none';
+    activeTagsEl.innerHTML = '';
+
+    if (query) {
+      const tag = createTag('Search: "' + query + '"', function() {
+        searchInput.value = '';
+        applyFilters();
+      });
+      activeTagsEl.appendChild(tag);
+    }
+    Object.keys(activeFilters).forEach(function(facet) {
+      activeFilters[facet].forEach(function(val) {
+        const tag = createTag(val, function() {
+          checkboxes.forEach(function(cb) {
+            if (cb.dataset.facet === facet && cb.value === val) cb.checked = false;
+          });
+          applyFilters();
+        });
+        activeTagsEl.appendChild(tag);
+      });
+    });
+  }
+
+  function createTag(label, onRemove) {
+    const span = document.createElement('span');
+    span.className = 'pub-active-tag';
+    span.innerHTML = label + ' <button aria-label="Remove">&times;</button>';
+    span.querySelector('button').addEventListener('click', onRemove);
+    return span;
+  }
+
+  // Event listeners
+  searchInput.addEventListener('input', applyFilters);
+  checkboxes.forEach(function(cb) {
+    cb.addEventListener('change', applyFilters);
+  });
+  clearAllBtn.addEventListener('click', function() {
+    searchInput.value = '';
+    checkboxes.forEach(function(cb) { cb.checked = false; });
+    applyFilters();
+  });
+
+  // Video modal
+  var videoModal = document.getElementById('pub-video-modal');
+  var videoIframe = document.getElementById('pub-video-iframe');
+  var videoClose = document.getElementById('pub-video-close');
+  var videoBackdrop = videoModal.querySelector('.pub-cite-backdrop');
+
+  function toEmbedUrl(url) {
+    var m = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([A-Za-z0-9_-]+)/);
+    return m ? 'https://www.youtube.com/embed/' + m[1] + '?autoplay=1' : url;
+  }
+
+  document.querySelectorAll('.pub-video-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      videoIframe.src = toEmbedUrl(btn.dataset.video);
+      videoModal.style.display = '';
+    });
+  });
+
+  function closeVideoModal() {
+    videoModal.style.display = 'none';
+    videoIframe.src = '';
+  }
+  videoClose.addEventListener('click', closeVideoModal);
+  videoBackdrop.addEventListener('click', closeVideoModal);
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && videoModal.style.display !== 'none') closeVideoModal();
+  });
+
+  // Cite modal
+  var citeModal = document.getElementById('pub-cite-modal');
+  var citeContent = document.getElementById('pub-cite-content');
+  var citeClose = document.getElementById('pub-cite-close');
+  var citeCopy = document.getElementById('pub-cite-copy');
+  var citeBackdrop = citeModal.querySelector('.pub-cite-backdrop');
+
+  document.querySelectorAll('.pub-cite-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      citeContent.textContent = btn.dataset.bib;
+      citeCopy.textContent = 'Copy to clipboard';
+      citeModal.style.display = '';
+    });
+  });
+
+  function closeCiteModal() { citeModal.style.display = 'none'; }
+  citeClose.addEventListener('click', closeCiteModal);
+  citeBackdrop.addEventListener('click', closeCiteModal);
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && citeModal.style.display !== 'none') closeCiteModal();
+  });
+
+  citeCopy.addEventListener('click', function() {
+    navigator.clipboard.writeText(citeContent.textContent).then(function() {
+      citeCopy.textContent = 'Copied!';
+    });
+  });
+})();
+</script>

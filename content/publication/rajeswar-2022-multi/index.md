@@ -1,0 +1,22 @@
+---
+title: 'Multi-Label Iterated Learning for Image Classification with Label Ambiguity'
+date: '2022-01-01'
+draft: false
+authors:
+  - Sai Rajeswar
+  - Pau Rodriguez
+  - Soumye Singhal
+  - David Vázquez
+  - Aaron Courville
+publication_types:
+  - 'paper-conference'
+publication: '*Computer Vision and Pattern Recognition (CVPR)*'
+abstract: 'Transfer learning from large-scale pre-trained models has become essential for many computer vision tasks. Recent studies have shown that datasets like ImageNet are weakly labeled since images with multiple object classes present are assigned a single label. This ambiguity biases models towards a single prediction, which could result in the suppression of classes that tend to co-occur in the data. Inspired by language emergence literature, we propose multi-label iterated learning (MILe) to incorporate the inductive biases of multi-label learning from single labels using the framework of iterated learning. MILe is a simple yet effective procedure that builds a multi-label description of the image by propagating binary predictions through successive generations of teacher and student networks with a learning bottleneck. Experiments show that our approach exhibits systematic benefits on ImageNet accuracy as well as ReaL F1 score, which indicates that MILe deals better with label ambiguity than the standard training procedure, even when fine-tuning from self-supervised weights. We also show that MILe is effective reducing label noise, achieving state-of-the-art performance on real-world large-scale noisy data such as WebVision. Furthermore, MILe improves performance in class incremental settings such as IIRC and it is robust to distribution shifts.'
+featured: false
+
+links:
+  - type: code
+    url: 'https://github.com/rajeswar18/MILe'
+  - name: arXiv
+    url: 'https://arxiv.org/pdf/2111.12172'
+---

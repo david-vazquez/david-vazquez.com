@@ -1,0 +1,28 @@
+---
+title: 'Sequoia: A Software Framework to Unify Continual Learning Research'
+date: '2022-01-01'
+draft: false
+authors:
+  - Fabrice Normandin
+  - Florian Golemo
+  - Oleksiy Ostapenko
+  - Pau Rodriguez
+  - Matthew D Riemer
+  - Julio Hurtado
+  - Khimya Khetarpal
+  - Ryan Lindeborg
+  - Lucas Cecchi
+  - Timothée Lesort
+  - others
+publication_types:
+  - 'paper-conference'
+publication: '*Conference on Lifelong Learning Agents (CoLLAs)*'
+abstract: 'The field of Continual Learning (CL) seeks to develop algorithms that accumulate knowledge and skills over time through interaction with non-stationary environments. In practice, a plethora of evaluation procedures (settings) and algorithmic solutions (methods) exist, each with their own potentially disjoint set of assumptions. This variety makes measuring progress in CL difficult. We propose a taxonomy of settings, where each setting is described as a set of assumptions. A tree-shaped hierarchy emerges from this view, where more general settings become the parents of those with more restrictive assumptions. This makes it possible to use inheritance to share and reuse research, as developing a method for a given setting also makes it directly applicable onto any of its children. We instantiate this idea as a publicly available software framework called Sequoia, which features a wide variety of settings from both the Continual Supervised Learning (CSL) and Continual Reinforcement Learning (CRL) domains. Sequoia also includes a growing suite of methods which are easy to extend and customize, in addition to more specialized methods from external libraries. We hope that this new paradigm and its first implementation can help unify and accelerate research in CL. You can help us grow the tree by visiting this http URL.'
+featured: false
+
+links:
+  - type: code
+    url: 'https://github.com/lebrice/Sequoia'
+  - name: arXiv
+    url: 'https://arxiv.org/pdf/2108.01005'
+---

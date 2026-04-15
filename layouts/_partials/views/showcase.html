@@ -1,0 +1,39 @@
+{{ $item := .item }}
+{{ $link := $item.RelPermalink }}
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+
+<li class="showcase-card group">
+  {{/* Circular image */}}
+  <div class="showcase-card-img">
+    {{ with $resource }}
+      {{ if ne .MediaType.SubType "gif" }}
+        {{ $img := .Fill "200x200 Center webp" }}
+        <img src="{{ $img.RelPermalink }}" width="100" height="100" alt="{{ $item.Title }}" loading="lazy">
+      {{ else }}
+        <img src="{{ .RelPermalink }}" width="100" height="100" alt="{{ $item.Title }}" loading="lazy">
+      {{ end }}
+    {{ end }}
+  </div>
+
+  {{/* Title with hover background */}}
+  <h2 class="showcase-card-title">
+    <div class="showcase-card-hover-bg"></div>
+    <a href="{{ $link }}">
+      <span class="showcase-card-link-area"></span>
+      <span class="showcase-card-title-text">{{ $item.Title }}</span>
+    </a>
+  </h2>
+
+  {{/* Description */}}
+  <p class="showcase-card-desc">{{ $item.Params.summary | default ($item.Summary | plainify | truncate 200) }}</p>
+
+  {{/* Link */}}
+  {{ with $item.Params.links }}
+    {{ with index . 0 }}
+      <p class="showcase-card-link">
+        <span>{{ .url | replaceRE "^https?://(www\\.)?" "" | replaceRE "/.*" "" }}</span>
+        <svg style="height:1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+      </p>
+    {{ end }}
+  {{ end }}
+</li>

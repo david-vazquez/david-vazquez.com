@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enterprise AI | David Vázquez</title>
+    <link>https://www.david-vazquez.com/tags/enterprise-ai/</link>
+      <atom:link href="https://www.david-vazquez.com/tags/enterprise-ai/index.xml" rel="self" type="application/rss+xml" />
+    <description>Enterprise AI</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.david-vazquez.com/media/icon_hu_a3642885bc94ba2d.png</url>
+      <title>Enterprise AI</title>
+      <link>https://www.david-vazquez.com/tags/enterprise-ai/</link>
+    </image>
+    
+    <item>
+      <title>EnterpriseOps-Gym</title>
+      <link>https://www.david-vazquez.com/project/enterpriseops-gym/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/project/enterpriseops-gym/</guid>
+      <description>&lt;p&gt;EnterpriseOps-Gym features 1,150 expert designed tasks across 8 interconnected enterprise domains, with persistent state, strict verification logic, and policy aware execution requirements. It tests whether AI agents can handle domain expertise, not just general reasoning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

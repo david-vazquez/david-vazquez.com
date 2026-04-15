@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article-Journal | David Vázquez</title>
+    <link>https://www.david-vazquez.com/publication_types/article-journal/</link>
+      <atom:link href="https://www.david-vazquez.com/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Article-Journal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.david-vazquez.com/media/icon_hu_a3642885bc94ba2d.png</url>
+      <title>Article-Journal</title>
+      <link>https://www.david-vazquez.com/publication_types/article-journal/</link>
+    </image>
+    
+    <item>
+      <title>Towards Good Validation Metrics for Generative Models in Offline Model-Based Optimisation</title>
+      <link>https://www.david-vazquez.com/publication/beckham-2024-towards/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/beckham-2024-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge Hypergraph Embedding Meets Relational Algebra</title>
+      <link>https://www.david-vazquez.com/publication/fatemi-2023-knowledge/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/fatemi-2023-knowledge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CVPR 2020 Continual Learning in Computer Vision Competition: Approaches, Results, Current Challenges and Future Directions</title>
+      <link>https://www.david-vazquez.com/publication/lomonaco-2022-cvpr/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/lomonaco-2022-cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring Validation Metrics for Offline Model-Based Optimisation with Diffusion Models</title>
+      <link>https://www.david-vazquez.com/publication/beckham-2022-exploring/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/beckham-2022-exploring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workflow Discovery from Dialogues in the Low Data Regime</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2022-workflow/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2022-workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D Perception with Slanted Stixels on GPU</title>
+      <link>https://www.david-vazquez.com/publication/hernandez-juarez-2021-3d/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/hernandez-juarez-2021-3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Deep Learning Localization Method for Measuring Abdominal Muscle Dimensions in Ultrasound Images</title>
+      <link>https://www.david-vazquez.com/publication/saleh-2021-a/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/saleh-2021-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly Supervised Underwater Fish Segmentation using Affinity LCFCN</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2021-weakly/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2021-weakly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Realistic Fish-Habitat Dataset to Evaluate Algorithms for Underwater Visual Analysis</title>
+      <link>https://www.david-vazquez.com/publication/saleh-2020-a/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/saleh-2020-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Affinity LCFCN: Learning to Segment Fish with Weak Supervision</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2020-affinity/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2020-affinity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating Virtual Images for Promoting Visual Artificial Intelligence</title>
+      <link>https://www.david-vazquez.com/publication/wang-2020-generating/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/wang-2020-generating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pix2Shape: Towards Unsupervised Learning of 3D Scenes from Images Using a View-Based Representation</title>
+      <link>https://www.david-vazquez.com/publication/rajeswar-2020-pix2shape/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rajeswar-2020-pix2shape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slanted Stixels: A Way to Represent Steep Streets</title>
+      <link>https://www.david-vazquez.com/publication/hernandez-juarez-2019-slanted/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/hernandez-juarez-2019-slanted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data for Training Models, Domain Adaptation</title>
+      <link>https://www.david-vazquez.com/publication/lopez-2018-data/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/lopez-2018-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Benchmark for Endoluminal Scene Segmentation of Colonoscopy Images</title>
+      <link>https://www.david-vazquez.com/publication/vazquez-2017-a/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/vazquez-2017-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guest Editorial: Deep Learning in Computer Vision</title>
+      <link>https://www.david-vazquez.com/publication/hospedales-2017-guest/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/hospedales-2017-guest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-Board Detection of Pedestrian Intentions</title>
+      <link>https://www.david-vazquez.com/publication/fang-2017-on/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/fang-2017-on/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Segmentation of Urban Scenes via Domain Adaptation of SYNTHIA</title>
+      <link>https://www.david-vazquez.com/publication/ros-2017-semantic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/ros-2017-semantic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation Tools</title>
+      <link>https://www.david-vazquez.com/publication/brazalez-2017-simulation/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/brazalez-2017-simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training My Car to See using Virtual Worlds</title>
+      <link>https://www.david-vazquez.com/publication/lopez-2017-training/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/lopez-2017-training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision-Based Advanced Driver Assistance Systems</title>
+      <link>https://www.david-vazquez.com/publication/geronimo-2017-vision/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/geronimo-2017-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPU-Based Pedestrian Detection for Autonomous Driving</title>
+      <link>https://www.david-vazquez.com/publication/campmany-2016-gpu/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/campmany-2016-gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Adaptive Structural SVM for Domain Adaptation</title>
+      <link>https://www.david-vazquez.com/publication/xu-2016-hierarchical/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/xu-2016-hierarchical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-Board Object Detection: Multicue, Multimodal, and Multiview Random Forest of Local Experts</title>
+      <link>https://www.david-vazquez.com/publication/gonzalez-2016-on/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/gonzalez-2016-on/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pedestrian Detection at Day/Night Time with Visible and FIR Cameras: A Comparison</title>
+      <link>https://www.david-vazquez.com/publication/gonzalez-2016-pedestrian/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/gonzalez-2016-pedestrian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain Adaptation of Deformable Part-Based Models</title>
+      <link>https://www.david-vazquez.com/publication/xu-2014-domain/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/xu-2014-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning a Part-Based Pedestrian Detector in Virtual World</title>
+      <link>https://www.david-vazquez.com/publication/xu-2014-learning/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/xu-2014-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual and Real World Adaptation for Pedestrian Detection</title>
+      <link>https://www.david-vazquez.com/publication/vazquez-2014-virtual/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/vazquez-2014-virtual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Occlusion Handling via Random Subspace Classifiers for Human Detection</title>
+      <link>https://www.david-vazquez.com/publication/marn-2013-occlusion/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/marn-2013-occlusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pedestrian Detection: Exploring Virtual Worlds</title>
+      <link>https://www.david-vazquez.com/publication/marn-2012-pedestrian/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/marn-2012-pedestrian/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Agents | David Vázquez</title>
+    <link>https://www.david-vazquez.com/tags/ai-agents/</link>
+      <atom:link href="https://www.david-vazquez.com/tags/ai-agents/index.xml" rel="self" type="application/rss+xml" />
+    <description>AI Agents</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.david-vazquez.com/media/icon_hu_a3642885bc94ba2d.png</url>
+      <title>AI Agents</title>
+      <link>https://www.david-vazquez.com/tags/ai-agents/</link>
+    </image>
+    
+    <item>
+      <title>EnterpriseOps-Gym</title>
+      <link>https://www.david-vazquez.com/project/enterpriseops-gym/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/project/enterpriseops-gym/</guid>
+      <description>&lt;p&gt;EnterpriseOps-Gym features 1,150 expert designed tasks across 8 interconnected enterprise domains, with persistent state, strict verification logic, and policy aware execution requirements. It tests whether AI agents can handle domain expertise, not just general reasoning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WorkArena and BrowserGym</title>
+      <link>https://www.david-vazquez.com/project/workarena/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/project/workarena/</guid>
+      <description>&lt;p&gt;WorkArena is a benchmark of tasks based on the ServiceNow platform that measures how well web agents can perform common knowledge work. BrowserGym provides a rich environment for designing and evaluating such agents with multimodal observations and a comprehensive action set. Published at ICML 2024.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

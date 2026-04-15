@@ -1,0 +1,18 @@
+---
+title: 'On-Board Detection of Pedestrian Intentions'
+date: '2017-01-01'
+draft: false
+authors:
+  - Zhijie Fang
+  - David Vázquez
+  - Antonio López
+publication_types:
+  - 'article-journal'
+publication: '*Sensors*'
+abstract: 'Avoiding vehicle-to-pedestrian crashes is a critical requirement for nowadays advanced driver assistant systems (ADAS) and future self-driving vehicles. Accordingly, detecting pedestrians from raw sensor data has a history of more than 15 years of research, with vision playing a central role. During the last years, deep learning has boosted the accuracy of image-based pedestrian detectors. However, detection is just the first step towards answering the core question, namely is the vehicle going to crash with a pedestrian provided preventive actions are not taken? Therefore, knowing as soon as possible if a detected pedestrian has the intention of crossing the road ahead of the vehicle is essential for performing safe and comfortable maneuvers that prevent a crash. However, compared to pedestrian detection, there is relatively little literature on detecting pedestrian intentions. This paper aims to contribute along this line by presenting a new vision-based approach which analyzes the pose of a pedestrian along several frames to determine if he or she is going to enter the road or not. We present experiments showing 750 ms of anticipation for pedestrians crossing the road, which at a typical urban driving speed of 50 km/h can provide 15 additional meters (compared to a pure pedestrian detector) for vehicle automatic reactions or to warn the driver. Moreover, in contrast with state-of-the-art methods, our approach is monocular, neither requiring stereo nor optical flow information.'
+featured: false
+
+links:
+  - type: pdf
+    url: 'https://www.mdpi.com/1424-8220/17/10/2193/pdf'
+---

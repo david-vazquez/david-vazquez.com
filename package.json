@@ -1,15 +1,7 @@
 {
   "name": "david-vazquez-site",
   "version": "1.0.0",
-  "description": "Open Claude Code in a new directory and give it these instructions:",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "private": true,
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.2.2",

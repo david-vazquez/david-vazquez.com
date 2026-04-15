@@ -1,0 +1,2907 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David Vázquez</title>
+    <link>https://www.david-vazquez.com/</link>
+      <atom:link href="https://www.david-vazquez.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>David Vázquez</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.david-vazquez.com/media/icon_hu_a3642885bc94ba2d.png</url>
+      <title>David Vázquez</title>
+      <link>https://www.david-vazquez.com/</link>
+    </image>
+    
+    <item>
+      <title>Bio</title>
+      <link>https://www.david-vazquez.com/bio/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/bio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.david-vazquez.com/contact/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://www.david-vazquez.com/experience/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://www.david-vazquez.com/projects/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://www.david-vazquez.com/publications/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>We&#39;re hiring researchers and engineers</title>
+      <link>https://www.david-vazquez.com/news/hiring/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/hiring/</guid>
+      <description>&lt;p&gt;The Foundational AI Research team at ServiceNow Research is hiring Senior Research Engineers and Scientists in Montreal. Research areas include AI agents, LLMs, reinforcement learning, time series analysis, and security. &lt;a href=&#34;https://jobs.smartrecruiters.com/ServiceNow/744000048939498&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Apply here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Presenting at ICLR 2026 in Rio de Janeiro</title>
+      <link>https://www.david-vazquez.com/news/iclr-2026/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/iclr-2026/</guid>
+      <description>&lt;p&gt;Our team presented multiple papers at ICLR 2026 in Rio de Janeiro, including work on multimodal models, web agents, and enterprise AI benchmarks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apriel-1.5-OpenReasoner: RL Post-Training for General-Purpose and Efficient Reasoning</title>
+      <link>https://www.david-vazquez.com/publication/pardinas-2026-apriel/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/pardinas-2026-apriel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StarFlow: Generating Structured Workflow Outputs from Sketch Images</title>
+      <link>https://www.david-vazquez.com/publication/bechard-2026-starflow/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/bechard-2026-starflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VectorGym: A Multitask Benchmark for SVG Code Generation, Sketching, and Editing</title>
+      <link>https://www.david-vazquez.com/publication/rodriguez-2026-vectorgym/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rodriguez-2026-vectorgym/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WildSVG: Towards Reliable SVG Generation Under Real-Word Conditions</title>
+      <link>https://www.david-vazquez.com/publication/terral-2026-wildsvg/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/terral-2026-wildsvg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI Tools for Indigenous Languages</title>
+      <link>https://www.david-vazquez.com/project/indigenous-languages/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/project/indigenous-languages/</guid>
+      <description>&lt;p&gt;An NSERC Discovery Grant funded project developing multimodal AI tools for underrepresented languages, with a focus on the Matsigenka language of Peru and Inuktitut in northern Canada. The project follows OCAP and TCPS 2 data sovereignty principles and involves community partners including Tejiendo Puentes en Salud, Ayni Desarrollo, Heritage Lab, and CECONAMA. Conducted through Polytechnique Montréal in collaboration with MILA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NSERC Discovery Grant awarded for Indigenous language AI tools</title>
+      <link>https://www.david-vazquez.com/news/nserc-grant/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/nserc-grant/</guid>
+      <description>&lt;p&gt;Awarded an NSERC Discovery Grant funding research on multimodal AI translation and literacy tools for the Matsigenka and Inuktitut communities, conducted through Polytechnique Montréal in collaboration with MILA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AlignVLM accepted at NeurIPS 2025</title>
+      <link>https://www.david-vazquez.com/news/alignvlm-neurips/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/alignvlm-neurips/</guid>
+      <description>&lt;p&gt;Our paper &amp;ldquo;AlignVLM: Bridging Vision and Language Latent Spaces for Multimodal Understanding&amp;rdquo; has been accepted at NeurIPS 2025.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Appointed Adjunct Professor at Polytechnique Montréal</title>
+      <link>https://www.david-vazquez.com/news/polytechnique-appointment/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/polytechnique-appointment/</guid>
+      <description>&lt;p&gt;Joined Polytechnique Montréal as Adjunct Professor affiliated with MILA, co supervising doctoral students and leading research on multimodal AI tools for Indigenous language preservation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EnterpriseOps-Gym</title>
+      <link>https://www.david-vazquez.com/project/enterpriseops-gym/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/project/enterpriseops-gym/</guid>
+      <description>&lt;p&gt;EnterpriseOps-Gym features 1,150 expert designed tasks across 8 interconnected enterprise domains, with persistent state, strict verification logic, and policy aware execution requirements. It tests whether AI agents can handle domain expertise, not just general reasoning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EnterpriseOps-Gym Released</title>
+      <link>https://www.david-vazquez.com/news/enterpriseops-gym/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/enterpriseops-gym/</guid>
+      <description>&lt;p&gt;Our new benchmark for evaluating stateful agentic planning in enterprise settings is now public. 1,150 tasks across 8 domains. &lt;a href=&#34;https://arxiv.org/abs/2505.00000&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; · &lt;a href=&#34;https://github.com/ServiceNow/EnterpriseOps-Gym&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apriel Model Family</title>
+      <link>https://www.david-vazquez.com/project/apriel/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/project/apriel/</guid>
+      <description>&lt;p&gt;The Apriel family of open language models developed at ServiceNow Research, including base models (Apriel 1.5, 1.6), reasoning models (AprielReasoner), and safety models (AprielGuard, an 8B parameter guardian model).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>StarVector accepted at CVPR 2025</title>
+      <link>https://www.david-vazquez.com/news/starvector-cvpr/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/starvector-cvpr/</guid>
+      <description>&lt;p&gt;Our paper &amp;ldquo;StarVector: Generating Scalable Vector Graphics Code from Images&amp;rdquo; has been accepted at CVPR 2025. Former intern Juan A. Rodriguez co-founded &lt;a href=&#34;https://quiver.ai&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QuiverAI&lt;/a&gt; based on this research, raising an $8.3M seed round led by Andreessen Horowitz.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BigDocs accepted at ICLR 2025</title>
+      <link>https://www.david-vazquez.com/news/bigdocs-iclr/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/bigdocs-iclr/</guid>
+      <description>&lt;p&gt;Our paper &amp;ldquo;BigDocs: An Open Dataset for Training Multimodal Models on Document and Code Tasks&amp;rdquo; has been accepted at ICLR 2025. &lt;a href=&#34;https://arxiv.org/abs/2412.04626&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; · &lt;a href=&#34;https://github.com/ServiceNow/BigDocs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AgentAda: Skill-Adaptive Data Analytics for Tailored Insight Discovery</title>
+      <link>https://www.david-vazquez.com/publication/abaskohi-2025-agentada/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/abaskohi-2025-agentada/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AlignVLM: Bridging Vision and Language Latent Spaces for Multimodal Document Understanding</title>
+      <link>https://www.david-vazquez.com/publication/masry-2025-alignvlm/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/masry-2025-alignvlm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BigCharts-R1: Enhanced Chart Reasoning with Visual Reinforcement Finetuning</title>
+      <link>https://www.david-vazquez.com/publication/masry-2025-bigcharts/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/masry-2025-bigcharts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BigDocs</title>
+      <link>https://www.david-vazquez.com/project/bigdocs/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/project/bigdocs/</guid>
+      <description>&lt;p&gt;BigDocs is a large scale, open, and permissively licensed dataset for training multimodal models on document understanding and code generation tasks. Published at ICLR 2025.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BigDocs: An Open Dataset for Training Multimodal Models on Document and Code Tasks</title>
+      <link>https://www.david-vazquez.com/publication/rodriguez-2025-bigdocs/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rodriguez-2025-bigdocs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distilling Specialized Orders for Visual Generation</title>
+      <link>https://www.david-vazquez.com/publication/pramanik-2025-distilling/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/pramanik-2025-distilling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grounding Computer Use Agents on Human Demonstrations</title>
+      <link>https://www.david-vazquez.com/publication/feizi-2025-grounding/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/feizi-2025-grounding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intent Discovery using Large Language Models</title>
+      <link>https://www.david-vazquez.com/publication/garcia-2025-intent/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/garcia-2025-intent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rendering-Aware Reinforcement Learning for Vector Graphics Generation</title>
+      <link>https://www.david-vazquez.com/publication/rodriguez-2025-rendering/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rodriguez-2025-rendering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StarVector: Generating Scalable Vector Graphics Code from Images and Text</title>
+      <link>https://www.david-vazquez.com/publication/rodriguez-2025-starvector/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rodriguez-2025-starvector/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UI-Vision: A Desktop-Centric GUI Benchmark for Visual Perception and Interaction</title>
+      <link>https://www.david-vazquez.com/publication/nayak-2025-uivision/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/nayak-2025-uivision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WebMMU: A Benchmark for Multimodal Multilingual Website Understanding and Code Generation</title>
+      <link>https://www.david-vazquez.com/publication/awal-2025-webmmu/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/awal-2025-webmmu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improved Training Set Selection for Semi-Supervised Learning</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2024-improved/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2024-improved/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WorkArena accepted at ICML 2024</title>
+      <link>https://www.david-vazquez.com/news/workarena-icml/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/news/workarena-icml/</guid>
+      <description>&lt;p&gt;Our paper &amp;ldquo;WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?&amp;rdquo; has been accepted at ICML 2024. &lt;a href=&#34;https://arxiv.org/abs/2403.07718&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; · &lt;a href=&#34;https://github.com/ServiceNow/WorkArena&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WorkArena and BrowserGym</title>
+      <link>https://www.david-vazquez.com/project/workarena/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/project/workarena/</guid>
+      <description>&lt;p&gt;WorkArena is a benchmark of tasks based on the ServiceNow platform that measures how well web agents can perform common knowledge work. BrowserGym provides a rich environment for designing and evaluating such agents with multimodal observations and a comprehensive action set. Published at ICML 2024.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Multimodal Class-Incremental Learning Benchmark for Classification Tasks</title>
+      <link>https://www.david-vazquez.com/publication/dalessandro-2024-a/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/dalessandro-2024-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CADet: Fully Self-Supervised Out-of-Distribution Detection with Contrastive Learning</title>
+      <link>https://www.david-vazquez.com/publication/guille-escuret-2024-cadet/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/guille-escuret-2024-cadet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GEO-Bench: Toward Foundation Models for Earth Monitoring</title>
+      <link>https://www.david-vazquez.com/publication/lacoste-2024-geo/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/lacoste-2024-geo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Group Robust Classification without Any Group Information</title>
+      <link>https://www.david-vazquez.com/publication/tsirigotis-2024-group/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/tsirigotis-2024-group/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InsightBench: Evaluating Business Analytics Agents through Multi-Step Insight Generation</title>
+      <link>https://www.david-vazquez.com/publication/sahu-2024-insightbench/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/sahu-2024-insightbench/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RepLiQA: A Question-Answering Dataset for Benchmarking LLMs on Unseen Reference Content</title>
+      <link>https://www.david-vazquez.com/publication/monteiro-2024-repliqa/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/monteiro-2024-repliqa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Good Validation Metrics for Generative Models in Offline Model-Based Optimisation</title>
+      <link>https://www.david-vazquez.com/publication/beckham-2024-towards/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/beckham-2024-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?</title>
+      <link>https://www.david-vazquez.com/publication/drouin-2024-workarena/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/drouin-2024-workarena/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XC-Cache: Cross-Attending to Cached Context for Efficient LLM Inference</title>
+      <link>https://www.david-vazquez.com/publication/monteiro-2024-xc/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/monteiro-2024-xc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anomaly Detection using Graph Neural Networks</title>
+      <link>https://www.david-vazquez.com/publication/taslakian-2023-anomaly/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/taslakian-2023-anomaly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Data Augmentation Learning using Bilevel Optimization for Histopathological Images</title>
+      <link>https://www.david-vazquez.com/publication/mounsaveng-2023-automatic/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/mounsaveng-2023-automatic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capture the Flag: Uncovering Data Insights with Large Language Models</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2023-capture/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2023-capture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constraining Representations Yields Models That Know What They Don&#39;t Know</title>
+      <link>https://www.david-vazquez.com/publication/monteiro-2023-constraining/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/monteiro-2023-constraining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expecting the Unexpected: Towards Broad Out-of-Distribution Detection</title>
+      <link>https://www.david-vazquez.com/publication/guille-escuret-2023-expecting/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/guille-escuret-2023-expecting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FigGen: Text to Scientific Figure Generation</title>
+      <link>https://www.david-vazquez.com/publication/rodriguez-2023-figgen/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rodriguez-2023-figgen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flaky Performances When Pretraining on Relational Databases</title>
+      <link>https://www.david-vazquez.com/publication/liu-2023-flaky/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/liu-2023-flaky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Generalization in Task-Oriented Dialogues with Workflows and Action Plans</title>
+      <link>https://www.david-vazquez.com/publication/raimondo-2023-improving/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/raimondo-2023-improving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IntentGPT: Few-Shot Intent Discovery with Large Language Models</title>
+      <link>https://www.david-vazquez.com/publication/rodriguez-2023-intentgpt/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rodriguez-2023-intentgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge Hypergraph Embedding Meets Relational Algebra</title>
+      <link>https://www.david-vazquez.com/publication/fatemi-2023-knowledge/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/fatemi-2023-knowledge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Language Decision Transformers with Exponential Tilt for Interactive Text Environments</title>
+      <link>https://www.david-vazquez.com/publication/gontier-2023-language/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/gontier-2023-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging Human Preferences to Master Poetry</title>
+      <link>https://www.david-vazquez.com/publication/pardinas-2023-leveraging/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/pardinas-2023-leveraging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual Code Retrieval without Paired Data: New Datasets and Benchmarks</title>
+      <link>https://www.david-vazquez.com/publication/monteiro-2023-multilingual/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/monteiro-2023-multilingual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OC-NMN: Object-Centric Compositional Neural Module Network for Generative Visual Analogical Reasoning</title>
+      <link>https://www.david-vazquez.com/publication/assouel-2023-oc/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/assouel-2023-oc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OCR-VQGAN: Taming Text-within-Image Generation</title>
+      <link>https://www.david-vazquez.com/publication/rodriguez-2023-ocr/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rodriguez-2023-ocr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Unsolved Challenges of LLMs as Generalist Web Agents: A Case Study</title>
+      <link>https://www.david-vazquez.com/publication/assouel-2023-the/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/assouel-2023-the/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TK-KNN: A Balanced Distance-Based Pseudo Labeling Approach for Semi-Supervised Intent Classification</title>
+      <link>https://www.david-vazquez.com/publication/botzer-2023-tk/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/botzer-2023-tk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3rd Continual Learning Workshop Challenge on Egocentric Category and Instance Level Object Understanding</title>
+      <link>https://www.david-vazquez.com/publication/pellegrini-2022-3rd/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/pellegrini-2022-3rd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Probabilistic Perspective on Reinforcement Learning via Supervised Learning</title>
+      <link>https://www.david-vazquez.com/publication/piche-2022-a/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/piche-2022-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Survey of Self-Supervised and Few-Shot Object Detection</title>
+      <link>https://www.david-vazquez.com/publication/huang-2022-survey/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/huang-2022-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constraining Low-Level Representations to Define Effective Confidence Scores</title>
+      <link>https://www.david-vazquez.com/publication/monteiro-2022-constraining/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/monteiro-2022-constraining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contrastive Self-Supervision Defines General-Purpose Similarity Functions</title>
+      <link>https://www.david-vazquez.com/publication/guille-escuret-2022-contrastive/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/guille-escuret-2022-contrastive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CVPR 2020 Continual Learning in Computer Vision Competition: Approaches, Results, Current Challenges and Future Directions</title>
+      <link>https://www.david-vazquez.com/publication/lomonaco-2022-cvpr/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/lomonaco-2022-cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Augmentation for Intent Classification with Off-the-Shelf Large Language Models</title>
+      <link>https://www.david-vazquez.com/publication/sahu-2022-data/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/sahu-2022-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring Validation Metrics for Offline Model-Based Optimisation with Diffusion Models</title>
+      <link>https://www.david-vazquez.com/publication/beckham-2022-exploring/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/beckham-2022-exploring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flaky Performances When Pretraining on Relational Databases</title>
+      <link>https://www.david-vazquez.com/publication/liu-2022-flaky/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/liu-2022-flaky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implicit Offline Reinforcement Learning via Supervised Learning</title>
+      <link>https://www.david-vazquez.com/publication/piche-2022-implicit/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/piche-2022-implicit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Label Iterated Learning for Image Classification with Label Ambiguity</title>
+      <link>https://www.david-vazquez.com/publication/rajeswar-2022-multi/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rajeswar-2022-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OCIM: Object-Centric Compositional Imagination for Visual Abstract Reasoning</title>
+      <link>https://www.david-vazquez.com/publication/assouel-2022-ocim/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/assouel-2022-ocim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Overcoming Challenges in Leveraging GANs for Few-Shot Data Augmentation</title>
+      <link>https://www.david-vazquez.com/publication/beckham-2022-overcoming/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/beckham-2022-overcoming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequoia: A Software Framework to Unify Continual Learning Research</title>
+      <link>https://www.david-vazquez.com/publication/normandin-2022-sequoia/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/normandin-2022-sequoia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Touch-Based Curiosity for Sparse-Reward Tasks</title>
+      <link>https://www.david-vazquez.com/publication/rajeswar-2022-haptics/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rajeswar-2022-haptics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workflow Discovery from Dialogues in the Low Data Regime</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2022-workflow/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2022-workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D Perception with Slanted Stixels on GPU</title>
+      <link>https://www.david-vazquez.com/publication/hernandez-juarez-2021-3d/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/hernandez-juarez-2021-3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Deep Learning Localization Method for Measuring Abdominal Muscle Dimensions in Ultrasound Images</title>
+      <link>https://www.david-vazquez.com/publication/saleh-2021-a/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/saleh-2021-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Weakly Supervised Consistency-Based Learning Method for COVID-19 Segmentation in CT Images</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2021-a/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2021-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Trivial Counterfactual Explanations with Diverse Valuable Explanations</title>
+      <link>https://www.david-vazquez.com/publication/rodriguez-2021-beyond/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rodriguez-2021-beyond/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoupling Anomaly Discrimination and Representation Learning: Self-Supervised Learning for Anomaly Detection on Attributed Graph</title>
+      <link>https://www.david-vazquez.com/publication/corsini-2021-self/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/corsini-2021-self/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Data Augmentation with Online Bilevel Optimization for Image Classification</title>
+      <link>https://www.david-vazquez.com/publication/mounsaveng-2021-learning/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/mounsaveng-2021-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data</title>
+      <link>https://www.david-vazquez.com/publication/manas-2021-seasonal/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/manas-2021-seasonal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSR: Semi-Supervised Soft Rasterizer for Single-View 2D to 3D Reconstruction</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2021-ssr/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2021-ssr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toward Foundation Models for Earth Monitoring: Proposal for a Climate Change Benchmark</title>
+      <link>https://www.david-vazquez.com/publication/lacoste-2021-toward/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/lacoste-2021-toward/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly Supervised Underwater Fish Segmentation using Affinity LCFCN</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2021-weakly/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2021-weakly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Counting Objects in Images Based on Approximate Locations</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2020-countingpat/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2020-countingpat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Realistic Fish-Habitat Dataset to Evaluate Algorithms for Underwater Visual Analysis</title>
+      <link>https://www.david-vazquez.com/publication/saleh-2020-a/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/saleh-2020-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Weakly Supervised Region-Based Active Learning Method for COVID-19 Segmentation in CT Images</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2020-a/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2020-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Affinity LCFCN: Learning to Segment Fish with Weak Supervision</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2020-affinity/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2020-affinity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Counting Cows: Tracking Illegal Cattle Ranching from High-Resolution Satellite Imagery</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2020-counting/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2020-counting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating Virtual Images for Promoting Visual Artificial Intelligence</title>
+      <link>https://www.david-vazquez.com/publication/wang-2020-generating/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/wang-2020-generating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instance Segmentation with Point Supervision</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2020-instance/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2020-instance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LOOC: Localize Overlapping Objects with Count Supervision</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2020-looc/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2020-looc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Fast Adaptation and Knowledge Accumulation: A New Approach to Continual Learning</title>
+      <link>https://www.david-vazquez.com/publication/caccia-2020-online/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/caccia-2020-online/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Fast Adaptation and Knowledge Accumulation: A New Approach to Continual Learning</title>
+      <link>https://www.david-vazquez.com/publication/caccia-2020-osaka/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/caccia-2020-osaka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pix2Shape: Towards Unsupervised Learning of 3D Scenes from Images Using a View-Based Representation</title>
+      <link>https://www.david-vazquez.com/publication/rajeswar-2020-pix2shape/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rajeswar-2020-pix2shape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proposal-Based Instance Segmentation with Point Supervision</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2020-proposal/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2020-proposal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synbols: Probing Learning Algorithms with Synthetic Datasets</title>
+      <link>https://www.david-vazquez.com/publication/lacoste-2020-synbols/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/lacoste-2020-synbols/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Learning of General Transformations for Data Augmentation</title>
+      <link>https://www.david-vazquez.com/publication/mounsaveng-2019-adversarial/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/mounsaveng-2019-adversarial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class-Based Styling: Real-Time Localized Style Transfer with Semantic Segmentation</title>
+      <link>https://www.david-vazquez.com/publication/kurzman-2019-class/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/kurzman-2019-class/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Context-Aware Visual Compatibility Prediction</title>
+      <link>https://www.david-vazquez.com/publication/cucurull-2019-context/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/cucurull-2019-context/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fourier-CPPNs for Image Synthesis</title>
+      <link>https://www.david-vazquez.com/publication/tesfaldet-2019-fourier/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/tesfaldet-2019-fourier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge Hypergraphs: Prediction Beyond Binary Relations</title>
+      <link>https://www.david-vazquez.com/publication/fatemi-2019-knowledge/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/fatemi-2019-knowledge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slanted Stixels: A Way to Represent Steep Streets</title>
+      <link>https://www.david-vazquez.com/publication/hernandez-juarez-2019-slanted/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/hernandez-juarez-2019-slanted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where Are the Masks: Instance Segmentation with Image-Level Supervision</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2019-where/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2019-where/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data for Training Models, Domain Adaptation</title>
+      <link>https://www.david-vazquez.com/publication/lopez-2018-data/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/lopez-2018-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Environmental Perception for Intelligent Vehicles</title>
+      <link>https://www.david-vazquez.com/publication/armingol-2018-environmental/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/armingol-2018-environmental/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Remove Rain in Traffic Surveillance by using Synthetic Data</title>
+      <link>https://www.david-vazquez.com/publication/bahnsen-2018-learning/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/bahnsen-2018-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where Are the Blobs: Counting by Localization with Point Supervision</title>
+      <link>https://www.david-vazquez.com/publication/laradji-2018-blobs/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/laradji-2018-blobs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Benchmark for Endoluminal Scene Segmentation of Colonoscopy Images</title>
+      <link>https://www.david-vazquez.com/publication/vazquez-2017-a/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/vazquez-2017-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPU-Accelerated Real-Time Stixel Computation</title>
+      <link>https://www.david-vazquez.com/publication/hernandez-juarez-2017-gpu/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/hernandez-juarez-2017-gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guest Editorial: Deep Learning in Computer Vision</title>
+      <link>https://www.david-vazquez.com/publication/hospedales-2017-guest/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/hospedales-2017-guest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-Board Detection of Pedestrian Intentions</title>
+      <link>https://www.david-vazquez.com/publication/fang-2017-on/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/fang-2017-on/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Segmentation of Urban Scenes via Domain Adaptation of SYNTHIA</title>
+      <link>https://www.david-vazquez.com/publication/ros-2017-semantic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/ros-2017-semantic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation Tools</title>
+      <link>https://www.david-vazquez.com/publication/brazalez-2017-simulation/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/brazalez-2017-simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slanted Stixels: Representing San Francisco&#39;s steepest streets</title>
+      <link>https://www.david-vazquez.com/publication/hernandez-juarez-2017-slanted/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/hernandez-juarez-2017-slanted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation</title>
+      <link>https://www.david-vazquez.com/publication/jegou-2017-the/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/jegou-2017-the/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training My Car to See using Virtual Worlds</title>
+      <link>https://www.david-vazquez.com/publication/lopez-2017-training/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/lopez-2017-training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision-Based Advanced Driver Assistance Systems</title>
+      <link>https://www.david-vazquez.com/publication/geronimo-2017-vision/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/geronimo-2017-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SYNTHIA</title>
+      <link>https://www.david-vazquez.com/project/synthia/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/project/synthia/</guid>
+      <description>&lt;p&gt;SYNTHIA is a large collection of synthetic images for semantic segmentation of urban scenes, generated using a video game engine. Published at CVPR 2016 and widely adopted in the autonomous driving research community. Licensed for commercial use by Intel, Audi, Huawei, Toyota, and Samsung.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comparison of Two Non-Linear Model-Based Control Strategies for Autonomous Vehicles</title>
+      <link>https://www.david-vazquez.com/publication/alcala-2016-comparison/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/alcala-2016-comparison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embedded Real-Time Stereo Estimation via Semi-Global Matching on the GPU</title>
+      <link>https://www.david-vazquez.com/publication/juarez-2016-embedded/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/juarez-2016-embedded/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Virtual to Real World Visual Perception using Domain Adaptation -- The DPM as Example</title>
+      <link>https://www.david-vazquez.com/publication/lopez-2016-from/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/lopez-2016-from/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPU-Based Pedestrian Detection for Autonomous Driving</title>
+      <link>https://www.david-vazquez.com/publication/campmany-2016-gpu/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/campmany-2016-gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Adaptive Structural SVM for Domain Adaptation</title>
+      <link>https://www.david-vazquez.com/publication/xu-2016-hierarchical/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/xu-2016-hierarchical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node-Adapt, Path-Adapt and Tree-Adapt: Model-Transfer Domain Adaptation for Random Forest</title>
+      <link>https://www.david-vazquez.com/publication/mozafari-2016-node/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/mozafari-2016-node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-Board Object Detection: Multicue, Multimodal, and Multiview Random Forest of Local Experts</title>
+      <link>https://www.david-vazquez.com/publication/gonzalez-2016-on/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/gonzalez-2016-on/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pedestrian Detection at Day/Night Time with Visible and FIR Cameras: A Comparison</title>
+      <link>https://www.david-vazquez.com/publication/gonzalez-2016-pedestrian/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/gonzalez-2016-pedestrian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PixelVAE: A Latent Variable Model for Natural Images</title>
+      <link>https://www.david-vazquez.com/publication/gulrajani-2016-pixelvae/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/gulrajani-2016-pixelvae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The SYNTHIA Dataset: A Large Collection of Synthetic Images for Semantic Segmentation of Urban Scenes</title>
+      <link>https://www.david-vazquez.com/publication/ros-2016-the/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/ros-2016-the/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D-Guided Multiscale Sliding Window for Pedestrian Detection</title>
+      <link>https://www.david-vazquez.com/publication/gonzalez-2015-3d/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/gonzalez-2015-3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiview Random Forest of Local Experts Combining RGB and LIDAR Data for Pedestrian Detection</title>
+      <link>https://www.david-vazquez.com/publication/gonzalez-2015-multiview/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/gonzalez-2015-multiview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatiotemporal Stacked Sequential Learning for Pedestrian Detection</title>
+      <link>https://www.david-vazquez.com/publication/gonzalez-2015-spatiotemporal/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/gonzalez-2015-spatiotemporal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vision-Based Offline-Online Perception Paradigm for Autonomous Driving</title>
+      <link>https://www.david-vazquez.com/publication/ros-2015-vision/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/ros-2015-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cost-Sensitive Structured SVM for Multi-Category Domain Adaptation</title>
+      <link>https://www.david-vazquez.com/publication/xu-2014-cost/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/xu-2014-cost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain Adaptation of Deformable Part-Based Models</title>
+      <link>https://www.david-vazquez.com/publication/xu-2014-domain/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/xu-2014-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elektra Autonomous Vehicle</title>
+      <link>https://www.david-vazquez.com/project/elektra/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/project/elektra/</guid>
+      <description>&lt;style&gt;
+/* Alternating layout: text on left/right with images, proper text wrapping */
+.section-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin: 3rem 0;
+  align-items: flex-start;
+}
+
+.section-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.section-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.section-media {
+  flex: 0 0 calc(45% - 1.25rem);
+}
+
+/* When text is longer, make it span full width below */
+@media (max-width: 1024px) {
+  .section-row {
+    flex-direction: column;
+  }
+  .section-row.reverse {
+    flex-direction: column;
+  }
+  .section-media {
+    flex: 1 1 100%;
+  }
+}
+
+/* Slideshow container */
+.section-slideshow {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f5f5f5;
+  margin: 0;
+}
+
+.section-slideshow-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%;
+  height: 0;
+}
+
+.section-slideshow-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.section-slideshow-image.active {
+  opacity: 1;
+}
+
+.section-slideshow-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.slideshow-nav {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+  z-index: 10;
+}
+
+.slideshow-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+
+.slideshow-dot.active {
+  background: rgba(255, 255, 255, 1);
+}
+
+.slideshow-dot:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.slideshow-caption {
+  position: absolute;
+  bottom: 3.5rem;
+  left: 0;
+  right: 0;
+  padding: 0.75rem 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+  z-index: 5;
+}
+
+/* Section video carousel - full width below text+image */
+.section-video-carousel {
+  margin: 2.5rem 0 0;
+  padding: 2rem;
+  border-top: 1px solid #e5e5e5;
+  width: 100%;
+  clear: both;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.dark .section-video-carousel {
+  border-top-color: #333;
+  background: #1a1a1a;
+}
+
+.section-video-carousel h4 {
+  font-size: 0.9rem;
+  margin: 0 0 1rem 0;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.dark .section-video-carousel h4 {
+  color: #e5e5e5;
+}
+
+.section-carousel-thumbnails {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scroll-behavior: smooth;
+}
+
+.section-carousel-thumbnails::-webkit-scrollbar {
+  height: 6px;
+}
+
+.section-carousel-thumbnails::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 3px;
+}
+
+.section-carousel-thumbnails::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.section-carousel-thumbnails::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+.dark .section-carousel-thumbnails::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dark .section-carousel-thumbnails::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+.dark .section-carousel-thumbnails::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+.section-video-thumb {
+  flex: 0 0 120px;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  transition: all 0.2s;
+  position: relative;
+  background: #f9f9f9;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.section-video-thumb:hover {
+  border-color: var(--primary-600, #3b82f6);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.dark .section-video-thumb {
+  border-color: #444;
+  background: #2a2a2a;
+}
+
+.dark .section-video-thumb:hover {
+  border-color: var(--primary-500, #6366f1);
+}
+
+.section-video-thumb::before {
+  content: &#39;▶&#39;;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: rgba(59, 130, 246, 0.6);
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.section-video-thumb:hover::before {
+  opacity: 1;
+}
+
+.dark .section-video-thumb::before {
+  color: rgba(99, 102, 241, 0.8);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+.section-video-thumb img {
+  width: 100%;
+  height: 68px;
+  object-fit: cover;
+  display: block;
+  background: linear-gradient(135deg, #e5e5e5 0%, #f0f0f0 100%);
+}
+
+.dark .section-video-thumb img {
+  background: linear-gradient(135deg, #2a2a2a 0%, #333 100%);
+}
+
+.section-video-thumb p {
+  padding: 0.4rem;
+  background: #f9f9f9;
+  font-size: 0.65rem;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 0;
+  color: #333;
+  font-weight: 500;
+}
+
+.dark .section-video-thumb p {
+  background: #333;
+  color: #e5e5e5;
+}
+
+/* Video modal popup */
+.video-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.video-modal.active {
+  display: flex;
+}
+
+.video-modal-content {
+  background: white;
+  border-radius: 12px;
+  max-width: 900px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+.dark .video-modal-content {
+  background: #1a1a1a;
+}
+
+.video-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.dark .video-modal-header {
+  border-bottom-color: #333;
+}
+
+.video-modal-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.video-modal-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+  padding: 0.5rem;
+}
+
+.dark .video-modal-close {
+  color: #aaa;
+}
+
+.video-modal-close:hover {
+  color: #333;
+}
+
+.dark .video-modal-close:hover {
+  color: #fff;
+}
+
+.video-modal-player {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
+}
+
+.video-modal-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Key Metrics */
+.elektra-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+  text-align: center;
+}
+
+.elektra-stat {
+  padding: 1.5rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.elektra-stat-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.elektra-stat-label {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.dark .elektra-stat {
+  background: #2a2a2a;
+}
+
+.dark .elektra-stat-value {
+  color: #eee;
+}
+
+.dark .elektra-stat-label {
+  color: #bbb;
+}
+
+/* Featured demo button */
+.featured-video-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--primary-600, #3b82f6);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.2s;
+  border: none;
+  margin: 1.5rem 0;
+}
+
+.featured-video-btn:hover {
+  background: var(--primary-700, #2563eb);
+}
+
+.dark .featured-video-btn {
+  background: var(--primary-500, #6366f1);
+}
+
+.dark .featured-video-btn:hover {
+  background: var(--primary-600, #4f46e5);
+}
+
+@media (max-width: 768px) {
+  .section-row {
+    grid-template-columns: 1fr;
+  }
+  .elektra-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+&lt;/style&gt;
+&lt;!-- Video Modal Popup --&gt;
+&lt;div id=&#34;video-modal&#34; class=&#34;video-modal&#34;&gt;
+  &lt;div class=&#34;video-modal-content&#34;&gt;
+    &lt;div class=&#34;video-modal-header&#34;&gt;
+      &lt;h3 class=&#34;video-modal-title&#34; id=&#34;video-modal-title&#34;&gt;Video&lt;/h3&gt;
+      &lt;button class=&#34;video-modal-close&#34; onclick=&#34;closeVideoModal()&#34;&gt;✕&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;video-modal-player&#34;&gt;
+      &lt;iframe id=&#34;video-modal-player&#34; src=&#34;&#34; frameborder=&#34;0&#34; allowfullscreen allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+let slideIndex = {};
+let autoPlayTimer = {};
+
+const slideCaptions = {
+  project: [&#34;Elektra autonomous vehicle platform&#34;, &#34;Multidisciplinary team composition&#34;],
+  perception: [&#34;Real-time stereo vision processing&#34;, &#34;3D scene reconstruction&#34;],
+  synthia: [&#34;SYNTHIA daytime urban scenario&#34;, &#34;SYNTHIA nighttime driving&#34;],
+  vehicle: [&#34;Custom vehicle electronics&#34;, &#34;GPU-accelerated processing&#34;],
+  control: [&#34;Low-level motion control&#34;, &#34;Vehicle actuator integration&#34;]
+};
+
+function initSlideshow(slideshowId, numSlides) {
+  slideIndex[slideshowId] = 1;
+  autoPlayTimer[slideshowId] = null;
+  showSlides(1, slideshowId);
+  autoPlay(slideshowId);
+}
+
+function currentSlide(n, slideshowId) {
+  clearTimeout(autoPlayTimer[slideshowId]);
+  showSlides(slideIndex[slideshowId] = n, slideshowId);
+  autoPlay(slideshowId);
+}
+
+function showSlides(n, slideshowId) {
+  const slideshow = document.getElementById(slideshowId + &#39;-slideshow&#39;);
+  if (!slideshow) return;
+  
+  const slides = slideshow.querySelectorAll(&#39;.section-slideshow-image&#39;);
+  const dots = slideshow.querySelectorAll(&#39;.slideshow-dot&#39;);
+  const caption = document.getElementById(slideshowId + &#39;-caption&#39;);
+  
+  if (n &gt; slides.length) { slideIndex[slideshowId] = 1; }
+  if (n &lt; 1) { slideIndex[slideshowId] = slides.length; }
+  
+  slides.forEach(slide =&gt; slide.classList.remove(&#39;active&#39;));
+  dots.forEach(dot =&gt; dot.classList.remove(&#39;active&#39;));
+  
+  if (slides.length &gt; 0) {
+    slides[slideIndex[slideshowId] - 1].classList.add(&#39;active&#39;);
+    if (dots.length &gt; 0) dots[slideIndex[slideshowId] - 1].classList.add(&#39;active&#39;);
+    if (caption &amp;&amp; slideCaptions[slideshowId]) {
+      caption.textContent = slideCaptions[slideshowId][slideIndex[slideshowId] - 1];
+    }
+  }
+}
+
+function autoPlay(slideshowId) {
+  autoPlayTimer[slideshowId] = setTimeout(() =&gt; {
+    slideIndex[slideshowId]++;
+    showSlides(slideIndex[slideshowId], slideshowId);
+    autoPlay(slideshowId);
+  }, 5000);
+}
+
+function openVideoModal(videoId, videoTitle) {
+  const modal = document.getElementById(&#39;video-modal&#39;);
+  const player = document.getElementById(&#39;video-modal-player&#39;);
+  const titleEl = document.getElementById(&#39;video-modal-title&#39;);
+  
+  titleEl.textContent = videoTitle;
+  player.src = `https://www.youtube.com/embed/${videoId}`;
+  modal.classList.add(&#39;active&#39;);
+  document.body.style.overflow = &#39;hidden&#39;;
+}
+
+function closeVideoModal() {
+  const modal = document.getElementById(&#39;video-modal&#39;);
+  modal.classList.remove(&#39;active&#39;);
+  document.body.style.overflow = &#39;&#39;;
+}
+
+document.addEventListener(&#39;click&#39;, function(event) {
+  const modal = document.getElementById(&#39;video-modal&#39;);
+  const content = document.querySelector(&#39;.video-modal-content&#39;);
+  if (event.target === modal) {
+    closeVideoModal();
+  }
+});
+
+document.addEventListener(&#39;keydown&#39;, function(event) {
+  if (event.key === &#39;Escape&#39;) {
+    closeVideoModal();
+  }
+});
+&lt;/script&gt;
+&lt;!-- Key Metrics --&gt;
+&lt;div class=&#34;elektra-stats&#34;&gt;
+  &lt;div class=&#34;elektra-stat&#34;&gt;
+    &lt;div class=&#34;elektra-stat-value&#34;&gt;20+&lt;/div&gt;
+    &lt;div class=&#34;elektra-stat-label&#34;&gt;Top-tier Publications&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;elektra-stat&#34;&gt;
+    &lt;div class=&#34;elektra-stat-value&#34;&gt;3&lt;/div&gt;
+    &lt;div class=&#34;elektra-stat-label&#34;&gt;Universities&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;elektra-stat&#34;&gt;
+    &lt;div class=&#34;elektra-stat-value&#34;&gt;400 FPS&lt;/div&gt;
+    &lt;div class=&#34;elektra-stat-label&#34;&gt;Real-time Stixel&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;elektra-stat&#34;&gt;
+    &lt;div class=&#34;elektra-stat-value&#34;&gt;2010s&lt;/div&gt;
+    &lt;div class=&#34;elektra-stat-label&#34;&gt;Active Period&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;autonomous-driving-in-action&#34;&gt;Autonomous Driving in Action&lt;/h2&gt;
+&lt;p&gt;The Elektra platform demonstrates &lt;strong&gt;real-world autonomous capabilities&lt;/strong&gt; — from perception-to-control integration across urban driving scenarios. Watch the full autonomous driving demonstration:&lt;/p&gt;
+&lt;p&gt;&lt;button class=&#34;featured-video-btn&#34; onclick=&#34;openVideoModal(&#39;tvZnN65jbCE&#39;, &#39;On-Road Autonomous Driving Demo&#39;)&#34;&gt;▶ Watch Full Autonomous Driving Demo&lt;/button&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Elektra&lt;/strong&gt; is an autonomous driving platform positioned as the &lt;strong&gt;Catalan hub of autonomous driving&lt;/strong&gt;, bringing together more than &lt;strong&gt;20 professionals&lt;/strong&gt; from diverse backgrounds across academia and industry.&lt;/p&gt;
+&lt;div class=&#34;section-row&#34;&gt;
+  &lt;div class=&#34;section-text&#34;&gt;
+&lt;p&gt;&lt;strong&gt;A Multidisciplinary Ecosystem:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CVC-UAB&lt;/strong&gt; — Environment perception &amp;amp; computer vision&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CAOS-UAB&lt;/strong&gt; — Embedded hardware &amp;amp; GPU optimization&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UPC-Tarrasa&lt;/strong&gt; — Control &amp;amp; path planning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CTTC-UPC&lt;/strong&gt; — Positioning &amp;amp; localization&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UAB-DEIC&lt;/strong&gt; — Vehicle-to-vehicle communications&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UAB-CEPHIS&lt;/strong&gt; — Electronics &amp;amp; integration&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CT Ingenieros&lt;/strong&gt; — Vehicle engineering &amp;amp; drive-by-wire&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Municipality of Sant Quirze&lt;/strong&gt; — Test track facility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Project Goals:&lt;/strong&gt;
+Elektra serves as a &lt;strong&gt;research and technology transfer hub&lt;/strong&gt; for intelligent mobility, combining cutting-edge academic research with real-world validation. The platform integrates multiple discipline areas—perception, planning, control, communications—to demonstrate production-ready autonomous driving in urban environments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Focus:&lt;/strong&gt;
+The project heavily relies on &lt;strong&gt;computer vision techniques&lt;/strong&gt; for high-level perception tasks (stereo vision, stixels, obstacle detection, scene understanding) while addressing the full stack: localization (GPS + IMU + vision), navigation (planning and control), and communications.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;section-media&#34;&gt;
+    &lt;div class=&#34;section-slideshow&#34; id=&#34;project-slideshow&#34;&gt;
+      &lt;div class=&#34;section-slideshow-container&#34;&gt;
+        &lt;div class=&#34;section-slideshow-image active&#34;&gt;
+          &lt;img src=&#34;elektra-car.png&#34; alt=&#34;Elektra autonomous vehicle platform&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;section-slideshow-image&#34;&gt;
+          &lt;img src=&#34;overview.png&#34; alt=&#34;Elektra team composition&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-nav&#34;&gt;
+          &lt;button class=&#34;slideshow-dot active&#34; onclick=&#34;currentSlide(1, &#39;project&#39;)&#34;&gt;&lt;/button&gt;
+          &lt;button class=&#34;slideshow-dot&#34; onclick=&#34;currentSlide(2, &#39;project&#39;)&#34;&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-caption&#34; id=&#34;project-caption&#34;&gt;Elektra autonomous vehicle platform&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section-video-carousel&#34;&gt;
+  &lt;h4&gt;Related Videos&lt;/h4&gt;
+  &lt;div class=&#34;section-carousel-thumbnails&#34;&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;FWM-5Ps8zFo&#39;, &#39;Elektra Project Overview&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/FWM-5Ps8zFo/default.jpg&#34; alt=&#34;Project Overview&#34;&gt;
+      &lt;p&gt;Project Overview&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;tvZnN65jbCE&#39;, &#39;Autonomous Driving Demo&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/tvZnN65jbCE/default.jpg&#34; alt=&#34;Driving Demo&#34;&gt;
+      &lt;p&gt;Driving Demo&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;7u-mMtm1Q9o&#39;, &#39;Person Detection Demo&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/7u-mMtm1Q9o/default.jpg&#34; alt=&#34;Person Detection&#34;&gt;
+      &lt;p&gt;Person Detection&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;initSlideshow(&#39;project&#39;, 2);&lt;/script&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;computer-vision-center-cvc&#34;&gt;Computer Vision Center (CVC)&lt;/h2&gt;
+&lt;div class=&#34;section-row reverse&#34;&gt;
+  &lt;div class=&#34;section-text&#34;&gt;
+&lt;p&gt;The &lt;strong&gt;Computer Vision Center (CVC)&lt;/strong&gt; is a non-profit research institution founded in 1995 by the Generalitat de Catalunya and Universitat Autònoma de Barcelona. It has positioned itself as a reference in computer vision research through:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core Activities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Forming students&lt;/strong&gt; in Computer Vision, Machine Learning, AI, Real-time Systems, GPU Computing, and Autonomous Control&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Basic research&lt;/strong&gt; producing high-impact papers in top-tier conferences and Q1 journals&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technological transfer &amp;amp; innovation&lt;/strong&gt; developing prototypes and products with industry partners&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dissemination&lt;/strong&gt; bringing research applications to the general public&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Elektra project exemplifies this mission—a &lt;strong&gt;research platform with real-world impact&lt;/strong&gt; that drives both academic excellence and industry collaboration.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;section-media&#34;&gt;
+    &lt;div class=&#34;section-slideshow&#34; id=&#34;cvc-slideshow&#34;&gt;
+      &lt;div class=&#34;section-slideshow-container&#34;&gt;
+        &lt;div class=&#34;section-slideshow-image active&#34;&gt;
+          &lt;img src=&#34;image55.png&#34; alt=&#34;CVC Research Facility&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-nav&#34;&gt;
+          &lt;button class=&#34;slideshow-dot active&#34; onclick=&#34;currentSlide(1, &#39;cvc&#39;)&#34;&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-caption&#34; id=&#34;cvc-caption&#34;&gt;CVC Research Facility&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section-video-carousel&#34;&gt;
+  &lt;h4&gt;Related Videos&lt;/h4&gt;
+  &lt;div class=&#34;section-carousel-thumbnails&#34;&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;FWM-5Ps8zFo&#39;, &#39;CVC Overview&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/FWM-5Ps8zFo/default.jpg&#34; alt=&#34;CVC Overview&#34;&gt;
+      &lt;p&gt;CVC Overview&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;lVImNWXD5DE&#39;, &#39;Research Activities&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/lVImNWXD5DE/default.jpg&#34; alt=&#34;Research&#34;&gt;
+      &lt;p&gt;Research Activities&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;initSlideshow(&#39;cvc&#39;, 1);&lt;/script&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;perception-system-design&#34;&gt;Perception System Design&lt;/h2&gt;
+&lt;div class=&#34;section-row&#34;&gt;
+  &lt;div class=&#34;section-text&#34;&gt;
+&lt;p&gt;I &lt;strong&gt;initiated and led the perception system development&lt;/strong&gt;, designing the full pipeline from raw sensor data to high-level scene understanding: object detection, semantic segmentation, 3D reconstruction, and SLAM.&lt;/p&gt;
+&lt;p&gt;The system integrates &lt;strong&gt;multiple modalities&lt;/strong&gt; for robust environmental understanding:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stereo cameras&lt;/strong&gt; for dense 3D reconstruction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monocular vision&lt;/strong&gt; for long-range detection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LIDAR&lt;/strong&gt; for precise 3D mapping and obstacle detection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inertial sensors&lt;/strong&gt; for motion estimation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-time GPU processing&lt;/strong&gt; for production-scale performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key achievements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Developed real-time 3D scene understanding pipelines&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Integrated multiple perception modalities for redundancy and accuracy&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Optimized GPU processing for embedded automotive hardware&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section-media&#34;&gt;
+  &lt;div class=&#34;section-slideshow&#34; id=&#34;perception-slideshow&#34;&gt;
+    &lt;div class=&#34;section-slideshow-container&#34;&gt;
+      &lt;div class=&#34;section-slideshow-image active&#34;&gt;
+        &lt;img src=&#34;image1.png&#34; alt=&#34;Real-time stereo vision processing&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;section-slideshow-image&#34;&gt;
+        &lt;img src=&#34;image102.png&#34; alt=&#34;3D scene reconstruction&#34;&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;slideshow-nav&#34;&gt;
+        &lt;button class=&#34;slideshow-dot active&#34; onclick=&#34;currentSlide(1, &#39;perception&#39;)&#34;&gt;&lt;/button&gt;
+        &lt;button class=&#34;slideshow-dot&#34; onclick=&#34;currentSlide(2, &#39;perception&#39;)&#34;&gt;&lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;slideshow-caption&#34; id=&#34;perception-caption&#34;&gt;Real-time stereo vision processing&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section-video-carousel&#34;&gt;
+  &lt;h4&gt;Related Videos&lt;/h4&gt;
+  &lt;div class=&#34;section-carousel-thumbnails&#34;&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;8TZx-FX2oaQ&#39;, &#39;Perception System&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/8TZx-FX2oaQ/default.jpg&#34; alt=&#34;Perception System&#34;&gt;
+      &lt;p&gt;Perception System&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;UCWPV1eEy0w&#39;, &#39;Stixels&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/UCWPV1eEy0w/default.jpg&#34; alt=&#34;Stixels&#34;&gt;
+      &lt;p&gt;Stixels&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;6dDNLvJVQjE&#39;, &#39;Real-time Processing&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/6dDNLvJVQjE/default.jpg&#34; alt=&#34;Real-time Processing&#34;&gt;
+      &lt;p&gt;Real-time Processing&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;7u-mMtm1Q9o&#39;, &#39;Sensor Integration&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/7u-mMtm1Q9o/default.jpg&#34; alt=&#34;Sensor Integration&#34;&gt;
+      &lt;p&gt;Sensor Integration&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;vDS7ZsZJKSU&#39;, &#39;Vision Pipeline&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/vDS7ZsZJKSU/default.jpg&#34; alt=&#34;Vision Pipeline&#34;&gt;
+      &lt;p&gt;Vision Pipeline&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;_GRo6AyL3YQ&#39;, &#39;GPU Processing&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/_GRo6AyL3YQ/default.jpg&#34; alt=&#34;GPU Processing&#34;&gt;
+      &lt;p&gt;GPU Processing&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;gs2XyPxKkpU&#39;, &#39;Embedded Systems&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/gs2XyPxKkpU/default.jpg&#34; alt=&#34;Embedded Systems&#34;&gt;
+      &lt;p&gt;Embedded Systems&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;initSlideshow(&#39;perception&#39;, 2);&lt;/script&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;obstacle--pedestrian-detection&#34;&gt;Obstacle &amp;amp; Pedestrian Detection&lt;/h2&gt;
+&lt;div class=&#34;section-row reverse&#34;&gt;
+  &lt;div class=&#34;section-text&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Accurate pedestrian and obstacle detection&lt;/strong&gt; is the first critical capability for safe autonomous driving. The system must identify all potential hazards in real-time, from dynamic pedestrians to static obstacles.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Detection capabilities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real-time pedestrian detection&lt;/strong&gt; using convolutional neural networks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-scale object detection&lt;/strong&gt; for obstacles at various distances&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Temporal consistency&lt;/strong&gt; across frames to reduce false positives&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Confidence scoring&lt;/strong&gt; for risk-aware planning decisions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key innovations:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GPU-accelerated detection pipelines (400+ FPS)&lt;/li&gt;
+&lt;li&gt;Robust detection in diverse lighting and weather conditions&lt;/li&gt;
+&lt;li&gt;Integration with planning for collision avoidance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The detection system feeds directly into the motion planning module, ensuring the vehicle can react to dynamic scenes in real-time.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;section-media&#34;&gt;
+    &lt;div class=&#34;section-slideshow&#34; id=&#34;obstacle-slideshow&#34;&gt;
+      &lt;div class=&#34;section-slideshow-container&#34;&gt;
+        &lt;div class=&#34;section-slideshow-image active&#34;&gt;
+          &lt;img src=&#34;image104.png&#34; alt=&#34;Real-time pedestrian detection visualization&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-nav&#34;&gt;
+          &lt;button class=&#34;slideshow-dot active&#34; onclick=&#34;currentSlide(1, &#39;obstacle&#39;)&#34;&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-caption&#34; id=&#34;obstacle-caption&#34;&gt;Real-time pedestrian detection visualization&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section-video-carousel&#34;&gt;
+  &lt;h4&gt;Related Videos&lt;/h4&gt;
+  &lt;div class=&#34;section-carousel-thumbnails&#34;&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;7dYoVdYiG_8&#39;, &#39;Obstacle Detection&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/7dYoVdYiG_8/default.jpg&#34; alt=&#34;Obstacle Detection&#34;&gt;
+      &lt;p&gt;Obstacle Detection&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;3mM0rq0pQ5c&#39;, &#39;Pedestrian Detection&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/3mM0rq0pQ5c/default.jpg&#34; alt=&#34;Pedestrian Detection&#34;&gt;
+      &lt;p&gt;Pedestrian Detection&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;24wSDvo4SO4&#39;, &#39;Real-time Detection&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/24wSDvo4SO4/default.jpg&#34; alt=&#34;Real-time Detection&#34;&gt;
+      &lt;p&gt;Real-time Detection&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;bO3ZwK3vVOM&#39;, &#39;Safety Systems&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/bO3ZwK3vVOM/default.jpg&#34; alt=&#34;Safety Systems&#34;&gt;
+      &lt;p&gt;Safety Systems&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;initSlideshow(&#39;obstacle&#39;, 1);&lt;/script&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;free-space--lane-detection&#34;&gt;Free Space &amp;amp; Lane Detection&lt;/h2&gt;
+&lt;div class=&#34;section-row&#34;&gt;
+  &lt;div class=&#34;section-text&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Free space and lane detection&lt;/strong&gt; identifies drivable areas and lane boundaries, forming the second critical capability for safe navigation. The system distinguishes between obstacles and navigable space, and maintains lane awareness.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key components:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stixel representation&lt;/strong&gt; for efficient 3D scene geometry&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lane boundary detection&lt;/strong&gt; using road markings and structure&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Drivable space segmentation&lt;/strong&gt; accounting for obstacles and curbs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-time processing&lt;/strong&gt; at full frame rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Technical approach:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dense stereo processing for 3D depth&lt;/li&gt;
+&lt;li&gt;Dynamic programming for optimal path detection&lt;/li&gt;
+&lt;li&gt;Adaptive thresholding for varying road conditions&lt;/li&gt;
+&lt;li&gt;Integration with localization for global path coherence&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The free space representation enables the planning module to compute safe trajectories that avoid obstacles while staying within lane boundaries.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;section-media&#34;&gt;
+    &lt;div class=&#34;section-slideshow&#34; id=&#34;freespace-slideshow&#34;&gt;
+      &lt;div class=&#34;section-slideshow-container&#34;&gt;
+        &lt;div class=&#34;section-slideshow-image active&#34;&gt;
+          &lt;img src=&#34;image97.png&#34; alt=&#34;Free-space detection highlighting drivable areas&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-nav&#34;&gt;
+          &lt;button class=&#34;slideshow-dot active&#34; onclick=&#34;currentSlide(1, &#39;freespace&#39;)&#34;&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-caption&#34; id=&#34;freespace-caption&#34;&gt;Free-space detection highlighting drivable areas&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section-video-carousel&#34;&gt;
+  &lt;h4&gt;Related Videos&lt;/h4&gt;
+  &lt;div class=&#34;section-carousel-thumbnails&#34;&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;K-rz32bW9l8&#39;, &#39;Free Space Detection&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/K-rz32bW9l8/default.jpg&#34; alt=&#34;Free Space&#34;&gt;
+      &lt;p&gt;Free Space Detection&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;tBCPBHLrqcs&#39;, &#39;Lane Detection&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/tBCPBHLrqcs/default.jpg&#34; alt=&#34;Lane Detection&#34;&gt;
+      &lt;p&gt;Lane Detection&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;2pDNvDN1x5M&#39;, &#39;Navigation Processing&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/2pDNvDN1x5M/default.jpg&#34; alt=&#34;Navigation&#34;&gt;
+      &lt;p&gt;Navigation Processing&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;66RPhbhUTRY&#39;, &#39;Road Understanding&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/66RPhbhUTRY/default.jpg&#34; alt=&#34;Road Understanding&#34;&gt;
+      &lt;p&gt;Road Understanding&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;6Yjd3XcHeVY&#39;, &#39;Drivable Space&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/6Yjd3XcHeVY/default.jpg&#34; alt=&#34;Drivable Space&#34;&gt;
+      &lt;p&gt;Drivable Space&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;initSlideshow(&#39;freespace&#39;, 1);&lt;/script&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;synthia-synthetic-data-innovation&#34;&gt;SYNTHIA: Synthetic Data Innovation&lt;/h2&gt;
+&lt;div class=&#34;section-row reverse&#34;&gt;
+  &lt;div class=&#34;section-text&#34;&gt;
+&lt;p&gt;&lt;strong&gt;SYNTHIA&lt;/strong&gt; is a synthetic data generation framework that creates diverse, photorealistic driving scenarios for training and validation. This addresses the fundamental challenge: collecting large-scale, labeled data for autonomous driving is expensive and time-consuming.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SYNTHIA capabilities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Multiple environmental conditions&lt;/strong&gt;: day, night, rain, fog, snow&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Diverse urban scenarios&lt;/strong&gt;: intersections, pedestrian crossings, parked vehicles&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automatic labeling&lt;/strong&gt;: ground truth for semantic segmentation, depth, optical flow&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalable generation&lt;/strong&gt;: thousands of labeled frames in hours&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Research impact:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enables training robust perception models&lt;/li&gt;
+&lt;li&gt;Provides controlled testing scenarios for algorithm validation&lt;/li&gt;
+&lt;li&gt;Reduces dependency on expensive field data collection&lt;/li&gt;
+&lt;li&gt;Published at top-tier conferences (CVPR, ICCV, ECCV)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;SYNTHIA data powered much of the Elektra perception pipeline, ensuring robustness across diverse real-world conditions.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;section-media&#34;&gt;
+    &lt;div class=&#34;section-slideshow&#34; id=&#34;synthia-slideshow&#34;&gt;
+      &lt;div class=&#34;section-slideshow-container&#34;&gt;
+        &lt;div class=&#34;section-slideshow-image active&#34;&gt;
+          &lt;img src=&#34;synthia-360.png&#34; alt=&#34;SYNTHIA daytime urban scenario&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;section-slideshow-image&#34;&gt;
+          &lt;img src=&#34;synthia-overview.png&#34; alt=&#34;SYNTHIA nighttime driving&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-nav&#34;&gt;
+          &lt;button class=&#34;slideshow-dot active&#34; onclick=&#34;currentSlide(1, &#39;synthia&#39;)&#34;&gt;&lt;/button&gt;
+          &lt;button class=&#34;slideshow-dot&#34; onclick=&#34;currentSlide(2, &#39;synthia&#39;)&#34;&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-caption&#34; id=&#34;synthia-caption&#34;&gt;SYNTHIA daytime urban scenario&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section-video-carousel&#34;&gt;
+  &lt;h4&gt;Related Videos&lt;/h4&gt;
+  &lt;div class=&#34;section-carousel-thumbnails&#34;&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;qWJ6o_6XxQA&#39;, &#39;SYNTHIA Overview&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/qWJ6o_6XxQA/default.jpg&#34; alt=&#34;SYNTHIA Overview&#34;&gt;
+      &lt;p&gt;SYNTHIA Overview&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;v1d8PiPt7EI&#39;, &#39;Synthetic Data Generation&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/v1d8PiPt7EI/default.jpg&#34; alt=&#34;Synthetic Data&#34;&gt;
+      &lt;p&gt;Synthetic Data&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;N1-9a98YN8M&#39;, &#39;SYNTHIA Training&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/N1-9a98YN8M/default.jpg&#34; alt=&#34;SYNTHIA Training&#34;&gt;
+      &lt;p&gt;SYNTHIA Training&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;HDNDKsOb6RE&#39;, &#39;Data Labeling&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/HDNDKsOb6RE/default.jpg&#34; alt=&#34;Data Labeling&#34;&gt;
+      &lt;p&gt;Data Labeling&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;fQgw9ZA2loI&#39;, &#39;Rendering Engine&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/fQgw9ZA2loI/default.jpg&#34; alt=&#34;Rendering Engine&#34;&gt;
+      &lt;p&gt;Rendering Engine&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;GCxm9TEGQOM&#39;, &#39;Urban Scenarios&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/GCxm9TEGQOM/default.jpg&#34; alt=&#34;Urban Scenarios&#34;&gt;
+      &lt;p&gt;Urban Scenarios&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;initSlideshow(&#39;synthia&#39;, 2);&lt;/script&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;localization--positioning&#34;&gt;Localization &amp;amp; Positioning&lt;/h2&gt;
+&lt;div class=&#34;section-row&#34;&gt;
+  &lt;div class=&#34;section-text&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Accurate localization&lt;/strong&gt; is critical—the vehicle must know its precise position relative to global maps and local obstacles. Elektra integrates multiple modalities for robust 6-DOF pose estimation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Localization approaches:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GPS + IMU fusion&lt;/strong&gt; for global positioning with inertial smoothing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visual odometry&lt;/strong&gt; from stereo cameras for local motion estimation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Loop closure detection&lt;/strong&gt; to correct drift over long distances&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semantic SLAM&lt;/strong&gt; leveraging detected landmarks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key challenges addressed:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GPS denial in urban canyons (bridges, tunnels)&lt;/li&gt;
+&lt;li&gt;Sensor drift accumulation over long drives&lt;/li&gt;
+&lt;li&gt;Real-time processing constraints for embedded hardware&lt;/li&gt;
+&lt;li&gt;Robustness to dynamic scenes and moving objects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The localization module feeds global coordinates to the planning system, enabling precise navigation to destinations while integrating with local perception for immediate obstacle avoidance.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;section-media&#34;&gt;
+    &lt;div class=&#34;section-slideshow&#34; id=&#34;localization-slideshow&#34;&gt;
+      &lt;div class=&#34;section-slideshow-container&#34;&gt;
+        &lt;div class=&#34;section-slideshow-image active&#34;&gt;
+          &lt;img src=&#34;image95.png&#34; alt=&#34;GPS and vision-based localization&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-nav&#34;&gt;
+          &lt;button class=&#34;slideshow-dot active&#34; onclick=&#34;currentSlide(1, &#39;localization&#39;)&#34;&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-caption&#34; id=&#34;localization-caption&#34;&gt;GPS and vision-based localization&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section-video-carousel&#34;&gt;
+  &lt;h4&gt;Related Videos&lt;/h4&gt;
+  &lt;div class=&#34;section-carousel-thumbnails&#34;&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;FY5rG5Pk6uE&#39;, &#39;Localization&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/FY5rG5Pk6uE/default.jpg&#34; alt=&#34;Localization&#34;&gt;
+      &lt;p&gt;Localization&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;LRxmvkqpd8E&#39;, &#39;SLAM&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/LRxmvkqpd8E/default.jpg&#34; alt=&#34;SLAM&#34;&gt;
+      &lt;p&gt;SLAM&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;aJxh8VGlwDg&#39;, &#39;GPS Integration&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/aJxh8VGlwDg/default.jpg&#34; alt=&#34;GPS Integration&#34;&gt;
+      &lt;p&gt;GPS Integration&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;EnBKkxBm3bo&#39;, &#39;Map Matching&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/EnBKkxBm3bo/default.jpg&#34; alt=&#34;Map Matching&#34;&gt;
+      &lt;p&gt;Map Matching&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;BH9QlZYv8oY&#39;, &#39;Sensor Fusion&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/BH9QlZYv8oY/default.jpg&#34; alt=&#34;Sensor Fusion&#34;&gt;
+      &lt;p&gt;Sensor Fusion&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;umyqz35DahM&#39;, &#39;Position Estimation&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/umyqz35DahM/default.jpg&#34; alt=&#34;Position Estimation&#34;&gt;
+      &lt;p&gt;Position Estimation&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;initSlideshow(&#39;localization&#39;, 1);&lt;/script&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;path-planning--navigation&#34;&gt;Path Planning &amp;amp; Navigation&lt;/h2&gt;
+&lt;div class=&#34;section-row reverse&#34;&gt;
+  &lt;div class=&#34;section-text&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Motion planning&lt;/strong&gt; computes smooth, collision-free trajectories from the vehicle&amp;rsquo;s current position to its destination. The planner integrates global route planning with local obstacle avoidance.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Planning stack:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Global planning&lt;/strong&gt; using road networks and maps to compute coarse routes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Local planning&lt;/strong&gt; generating smooth trajectories that respect vehicle dynamics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trajectory optimization&lt;/strong&gt; minimizing time, fuel, and passenger comfort metrics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reachability analysis&lt;/strong&gt; ensuring planned motions are executable by the vehicle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key innovations:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Real-time dynamic replanning as obstacles and goals change&lt;/li&gt;
+&lt;li&gt;Integration with free-space and localization modules&lt;/li&gt;
+&lt;li&gt;Consideration of vehicle kinematic constraints&lt;/li&gt;
+&lt;li&gt;Safety-critical validation for automated motion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The planning module outputs reference trajectories that feed into the low-level vehicle control system, ensuring the vehicle executes safe, comfortable driving behaviors.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;section-media&#34;&gt;
+    &lt;div class=&#34;section-slideshow&#34; id=&#34;planning-slideshow&#34;&gt;
+      &lt;div class=&#34;section-slideshow-container&#34;&gt;
+        &lt;div class=&#34;section-slideshow-image active&#34;&gt;
+          &lt;img src=&#34;image73.png&#34; alt=&#34;Path planning and trajectory visualization&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-nav&#34;&gt;
+          &lt;button class=&#34;slideshow-dot active&#34; onclick=&#34;currentSlide(1, &#39;planning&#39;)&#34;&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-caption&#34; id=&#34;planning-caption&#34;&gt;Path planning and trajectory visualization&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section-video-carousel&#34;&gt;
+  &lt;h4&gt;Related Videos&lt;/h4&gt;
+  &lt;div class=&#34;section-carousel-thumbnails&#34;&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;KWVkT1oMzHc&#39;, &#39;Path Planning&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/KWVkT1oMzHc/default.jpg&#34; alt=&#34;Path Planning&#34;&gt;
+      &lt;p&gt;Path Planning&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;K-rz32bW9l8&#39;, &#39;Navigation&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/K-rz32bW9l8/default.jpg&#34; alt=&#34;Navigation&#34;&gt;
+      &lt;p&gt;Navigation&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;jFYglohszXk&#39;, &#39;Trajectory Optimization&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/jFYglohszXk/default.jpg&#34; alt=&#34;Trajectory&#34;&gt;
+      &lt;p&gt;Trajectory Optimization&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;I0hJxby__c8&#39;, &#39;Route Planning&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/I0hJxby__c8/default.jpg&#34; alt=&#34;Route Planning&#34;&gt;
+      &lt;p&gt;Route Planning&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;jP42VX2uvPY&#39;, &#39;Obstacle Avoidance&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/jP42VX2uvPY/default.jpg&#34; alt=&#34;Avoidance&#34;&gt;
+      &lt;p&gt;Obstacle Avoidance&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;L5auVNuYw7A&#39;, &#39;Dynamic Planning&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/L5auVNuYw7A/default.jpg&#34; alt=&#34;Dynamic Planning&#34;&gt;
+      &lt;p&gt;Dynamic Planning&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;w2xadeEWLAo&#39;, &#39;Behavior Planning&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/w2xadeEWLAo/default.jpg&#34; alt=&#34;Behavior Planning&#34;&gt;
+      &lt;p&gt;Behavior Planning&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;zIVRqvysEPw&#39;, &#39;Motion Strategies&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/zIVRqvysEPw/default.jpg&#34; alt=&#34;Motion Strategies&#34;&gt;
+      &lt;p&gt;Motion Strategies&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;initSlideshow(&#39;planning&#39;, 1);&lt;/script&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;vehicle-control--execution&#34;&gt;Vehicle Control &amp;amp; Execution&lt;/h2&gt;
+&lt;div class=&#34;section-row&#34;&gt;
+  &lt;div class=&#34;section-text&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Low-level vehicle control&lt;/strong&gt; executes the planned trajectories by commanding steering, acceleration, and braking. This module transforms high-level motion plans into real-time actuator commands.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Control architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Trajectory tracking control&lt;/strong&gt; maintaining planned position and velocity&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Steering control&lt;/strong&gt; with constraints on maximum steering angle and rate&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Longitudinal control&lt;/strong&gt; (acceleration/braking) respecting vehicle dynamics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Actuator interfacing&lt;/strong&gt; with drive-by-wire systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Technical highlights:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PID-based and model predictive control approaches&lt;/li&gt;
+&lt;li&gt;Real-time embedded implementation on vehicle hardware&lt;/li&gt;
+&lt;li&gt;Safety monitors detecting control failures&lt;/li&gt;
+&lt;li&gt;Graceful degradation modes for fault tolerance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The control module is the final link in the autonomous driving chain, transforming software decisions into physical vehicle motion while ensuring safety and passenger comfort.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;section-media&#34;&gt;
+    &lt;div class=&#34;section-slideshow&#34; id=&#34;control-slideshow&#34;&gt;
+      &lt;div class=&#34;section-slideshow-container&#34;&gt;
+        &lt;div class=&#34;section-slideshow-image active&#34;&gt;
+          &lt;img src=&#34;control.png&#34; alt=&#34;Low-level motion control&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;section-slideshow-image&#34;&gt;
+          &lt;img src=&#34;Electronics.png&#34; alt=&#34;Vehicle actuator integration&#34;&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-nav&#34;&gt;
+          &lt;button class=&#34;slideshow-dot active&#34; onclick=&#34;currentSlide(1, &#39;control&#39;)&#34;&gt;&lt;/button&gt;
+          &lt;button class=&#34;slideshow-dot&#34; onclick=&#34;currentSlide(2, &#39;control&#39;)&#34;&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;slideshow-caption&#34; id=&#34;control-caption&#34;&gt;Low-level motion control&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section-video-carousel&#34;&gt;
+  &lt;h4&gt;Related Videos&lt;/h4&gt;
+  &lt;div class=&#34;section-carousel-thumbnails&#34;&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;PSpKVMXfNVE&#39;, &#39;Vehicle Control&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/PSpKVMXfNVE/default.jpg&#34; alt=&#34;Vehicle Control&#34;&gt;
+      &lt;p&gt;Vehicle Control&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;fI_yKn3pN34&#39;, &#39;Drive-by-Wire&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/fI_yKn3pN34/default.jpg&#34; alt=&#34;Drive-by-Wire&#34;&gt;
+      &lt;p&gt;Drive-by-Wire&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;tvZnN65jbCE&#39;, &#39;Integrated Control Demo&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/tvZnN65jbCE/default.jpg&#34; alt=&#34;Control Demo&#34;&gt;
+      &lt;p&gt;Control Demo&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;sLq-o7mVl-M&#39;, &#39;Steering Control&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/sLq-o7mVl-M/default.jpg&#34; alt=&#34;Steering&#34;&gt;
+      &lt;p&gt;Steering Control&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;OqNDF4LnKFY&#39;, &#39;Speed Control&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/OqNDF4LnKFY/default.jpg&#34; alt=&#34;Speed Control&#34;&gt;
+      &lt;p&gt;Speed Control&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;OGZ5hMjlg0k&#39;, &#39;Safety Systems&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/OGZ5hMjlg0k/default.jpg&#34; alt=&#34;Safety Systems&#34;&gt;
+      &lt;p&gt;Safety Systems&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;RqSYT5ZmwHI&#39;, &#39;Hardware Integration&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/RqSYT5ZmwHI/default.jpg&#34; alt=&#34;Hardware Integration&#34;&gt;
+      &lt;p&gt;Hardware Integration&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;CB4384w4cgQ&#39;, &#39;Testing Procedures&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/CB4384w4cgQ/default.jpg&#34; alt=&#34;Testing&#34;&gt;
+      &lt;p&gt;Testing Procedures&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;section-video-thumb&#34; onclick=&#34;openVideoModal(&#39;FfdSn_7b4s0&#39;, &#39;Real-world Validation&#39;)&#34;&gt;
+      &lt;img src=&#34;https://img.youtube.com/vi/FfdSn_7b4s0/default.jpg&#34; alt=&#34;Validation&#34;&gt;
+      &lt;p&gt;Real-world Validation&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;initSlideshow(&#39;control&#39;, 2);&lt;/script&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;test-track--controlled-environment&#34;&gt;Test Track &amp;amp; Controlled Environment&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Real-world validation&lt;/strong&gt; at the Sant Quirze test track and urban environments was essential for proving the integrated system. Controlled testing grounds allowed for systematic evaluation before public road operation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Testing program:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Structured scenarios&lt;/strong&gt; with known obstacles and traffic patterns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sensor characterization&lt;/strong&gt; under diverse weather and lighting conditions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Safety case building&lt;/strong&gt; documenting system reliability and failure modes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public demonstrations&lt;/strong&gt; showcasing autonomous capabilities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The test track served as the primary venue for validating each subsystem—perception, planning, and control—both in isolation and as an integrated autonomous driving platform.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;partnerships--collaborators&#34;&gt;Partnerships &amp;amp; Collaborators&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;multidisciplinary nature&lt;/strong&gt; of Elektra required collaboration across academic institutions and industry partners:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Universitat Autònoma de Barcelona (UAB)&lt;/strong&gt; — CVC (perception), CAOS (hardware), DEIC (communications), CEPHIS (electronics)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Universitat Politècnica de Catalunya (UPC)&lt;/strong&gt; — Tarrasa (control &amp;amp; planning), CTTC (positioning)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CT Ingenieros&lt;/strong&gt; — Vehicle engineering and drive-by-wire integration&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Municipality of Sant Quirze&lt;/strong&gt; — Test track facility and urban testing permissions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This consortium model enabled knowledge transfer, technology validation, and real-world deployment—positioning Elektra as a complete autonomous driving platform rather than isolated research components.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;key-publications&#34;&gt;Key Publications&lt;/h2&gt;
+&lt;p&gt;The Elektra project generated more than &lt;strong&gt;20 peer-reviewed publications&lt;/strong&gt; at top-tier conferences and journals, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CVPR, ICCV, ECCV&lt;/strong&gt; — Computer vision and perception&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IEEE TITS&lt;/strong&gt; — Intelligent transportation systems&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IEEE T-IV&lt;/strong&gt; — Intelligent vehicles&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Robotics and Autonomous Systems&lt;/strong&gt; — System integration and control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Key contributions include stixel-based 3D scene understanding, synthetic data generation (SYNTHIA), semantic segmentation for autonomous driving, and real-time perception system design.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;legacy--impact&#34;&gt;Legacy &amp;amp; Impact&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Elektra has left a lasting mark on autonomous driving research:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Proof of concept&lt;/strong&gt; that vision-centric autonomous driving is achievable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Benchmark datasets&lt;/strong&gt; enabling community-wide algorithm comparison&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technology transfer&lt;/strong&gt; to industry and other research groups&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Student training&lt;/strong&gt; producing graduates who advanced the field&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The platform demonstrated that &lt;strong&gt;accurate perception, robust planning, and reliable control&lt;/strong&gt; together enable urban autonomous driving—a paradigm that continues to influence modern autonomous vehicle development today.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Incremental Domain Adaptation of Deformable Part-Based Models</title>
+      <link>https://www.david-vazquez.com/publication/xu-2014-incremental/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/xu-2014-incremental/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning a Part-Based Pedestrian Detector in Virtual World</title>
+      <link>https://www.david-vazquez.com/publication/xu-2014-learning/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/xu-2014-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual and Real World Adaptation for Pedestrian Detection</title>
+      <link>https://www.david-vazquez.com/publication/vazquez-2014-virtual/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/vazquez-2014-virtual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adapting a Pedestrian Detector by Boosting LDA Exemplar Classifiers</title>
+      <link>https://www.david-vazquez.com/publication/xu-2013-adapting/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/xu-2013-adapting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adapting Pedestrian Detection from Synthetic to Far Infrared Images</title>
+      <link>https://www.david-vazquez.com/publication/socarras-2013-adapting/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/socarras-2013-adapting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision Trends and Challenges</title>
+      <link>https://www.david-vazquez.com/publication/bernal-2013-computer/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/bernal-2013-computer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain Adaptation of Virtual and Real Worlds for Pedestrian Detection</title>
+      <link>https://www.david-vazquez.com/publication/vazquez-2013-domain/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/vazquez-2013-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Training of Human Detectors</title>
+      <link>https://www.david-vazquez.com/publication/vazquez-2013-interactive/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/vazquez-2013-interactive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning a Multiview Part-Based Model in Virtual World for Pedestrian Detection</title>
+      <link>https://www.david-vazquez.com/publication/xu-2013-learning/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/xu-2013-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Task Bilinear Classifiers for Visual Domain Adaptation</title>
+      <link>https://www.david-vazquez.com/publication/xu-2013-multi/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/xu-2013-multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Occlusion Handling via Random Subspace Classifiers for Human Detection</title>
+      <link>https://www.david-vazquez.com/publication/marn-2013-occlusion/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/marn-2013-occlusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Random Forests of Local Experts for Pedestrian Detection</title>
+      <link>https://www.david-vazquez.com/publication/marin-2013-randomforests/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/marin-2013-randomforests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly Supervised Automatic Annotation of Pedestrian Bounding Boxes</title>
+      <link>https://www.david-vazquez.com/publication/vazquez-2013-weakly/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/vazquez-2013-weakly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving HOG with Image Segmentation: Application to Human Detection</title>
+      <link>https://www.david-vazquez.com/publication/socarras-2012-improving/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/socarras-2012-improving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pedestrian Detection: Exploring Virtual Worlds</title>
+      <link>https://www.david-vazquez.com/publication/marn-2012-pedestrian/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/marn-2012-pedestrian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Domain Adaptation of Virtual and Real Worlds for Pedestrian Detection</title>
+      <link>https://www.david-vazquez.com/publication/vazquez-2012-unsupervised/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/vazquez-2012-unsupervised/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Color Contribution to Part-Based Person Detection in Different Types of Scenarios</title>
+      <link>https://www.david-vazquez.com/publication/rao-2011-color/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/rao-2011-color/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cool World: Domain Adaptation of Virtual and Real Worlds for Human Detection using Active Learning</title>
+      <link>https://www.david-vazquez.com/publication/vazquez-2011-cool/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/vazquez-2011-cool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opponent Colors for Human Detection</title>
+      <link>https://www.david-vazquez.com/publication/anwer-2011-opponent/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/anwer-2011-opponent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual Worlds and Active Learning for Human Detection</title>
+      <link>https://www.david-vazquez.com/publication/vazquez-2011-virtual/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/vazquez-2011-virtual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting Small Pedestrians</title>
+      <link>https://www.david-vazquez.com/publication/vazquez-2010-detecting/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/vazquez-2010-detecting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Appearance in Virtual Scenarios for Pedestrian Detection</title>
+      <link>https://www.david-vazquez.com/publication/marin-2010-learning/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/publication/marin-2010-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks &amp; Panels</title>
+      <link>https://www.david-vazquez.com/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/talks/</guid>
+      <description>&lt;h2 id=&#34;invited-talks&#34;&gt;Invited Talks&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Talk&lt;/th&gt;
+          &lt;th&gt;Venue&lt;/th&gt;
+          &lt;th&gt;Date&lt;/th&gt;
+          &lt;th&gt;Location&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Generative Models in Computer Vision&lt;/td&gt;
+          &lt;td&gt;Georgian&lt;/td&gt;
+          &lt;td&gt;May 2021&lt;/td&gt;
+          &lt;td&gt;Toronto, Canada&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Low Data Learning in Computer Vision&lt;/td&gt;
+          &lt;td&gt;USC&lt;/td&gt;
+          &lt;td&gt;Apr 2021&lt;/td&gt;
+          &lt;td&gt;Santiago, Spain&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;AI 101: Introduction to AI&lt;/td&gt;
+          &lt;td&gt;Salesforce&lt;/td&gt;
+          &lt;td&gt;Jun 2020&lt;/td&gt;
+          &lt;td&gt;Montreal, Canada&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;GCNN for Compatibility Prediction&lt;/td&gt;
+          &lt;td&gt;ETS&lt;/td&gt;
+          &lt;td&gt;Apr 2019&lt;/td&gt;
+          &lt;td&gt;Montreal, Canada&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;The SYNTHIA Dataset&lt;/td&gt;
+          &lt;td&gt;CVPR Traffic Surveillance Workshop&lt;/td&gt;
+          &lt;td&gt;Jul 2017&lt;/td&gt;
+          &lt;td&gt;Honolulu, USA&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Self Driving and Deep Learning&lt;/td&gt;
+          &lt;td&gt;AI for Data Mining and Big Data&lt;/td&gt;
+          &lt;td&gt;Apr 2017&lt;/td&gt;
+          &lt;td&gt;Spain&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;The SYNTHIA Dataset&lt;/td&gt;
+          &lt;td&gt;Zoox&lt;/td&gt;
+          &lt;td&gt;Jul 2016&lt;/td&gt;
+          &lt;td&gt;San Francisco, USA&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Learning to See in a Virtual World&lt;/td&gt;
+          &lt;td&gt;Alcalá University&lt;/td&gt;
+          &lt;td&gt;Nov 2015&lt;/td&gt;
+          &lt;td&gt;Madrid, Spain&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Autonomous Vehicles&lt;/td&gt;
+          &lt;td&gt;Pint of Science&lt;/td&gt;
+          &lt;td&gt;Apr 2015&lt;/td&gt;
+          &lt;td&gt;Barcelona, Spain&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ADAS and Autonomous Vehicles&lt;/td&gt;
+          &lt;td&gt;ST Dynamics&lt;/td&gt;
+          &lt;td&gt;Nov 2014&lt;/td&gt;
+          &lt;td&gt;Singapore&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Pedestrian Detection&lt;/td&gt;
+          &lt;td&gt;Samsung Research&lt;/td&gt;
+          &lt;td&gt;Jun 2014&lt;/td&gt;
+          &lt;td&gt;Poland&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Domain Adaptation for Pedestrian Detection&lt;/td&gt;
+          &lt;td&gt;Daimler AG&lt;/td&gt;
+          &lt;td&gt;Oct 2013&lt;/td&gt;
+          &lt;td&gt;Germany&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;demos&#34;&gt;Demos&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Demo&lt;/th&gt;
+          &lt;th&gt;Venue&lt;/th&gt;
+          &lt;th&gt;Year&lt;/th&gt;
+          &lt;th&gt;Location&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Elektra Autonomous Vehicle&lt;/td&gt;
+          &lt;td&gt;UAB for NVIDIA&lt;/td&gt;
+          &lt;td&gt;2016&lt;/td&gt;
+          &lt;td&gt;Barcelona, Spain&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Elektra Autonomous Vehicle&lt;/td&gt;
+          &lt;td&gt;Catalan Government&lt;/td&gt;
+          &lt;td&gt;2016&lt;/td&gt;
+          &lt;td&gt;Barcelona, Spain&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Autonomous Vehicle Simulator&lt;/td&gt;
+          &lt;td&gt;CVPR&lt;/td&gt;
+          &lt;td&gt;2016&lt;/td&gt;
+          &lt;td&gt;Las Vegas, USA&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3D Pedestrian Detection&lt;/td&gt;
+          &lt;td&gt;ECCV&lt;/td&gt;
+          &lt;td&gt;2015&lt;/td&gt;
+          &lt;td&gt;Barcelona, Spain&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;media-coverage&#34;&gt;Media Coverage&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Topic&lt;/th&gt;
+          &lt;th&gt;Outlet&lt;/th&gt;
+          &lt;th&gt;Year&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Tech Can Help Reduce Human Error&lt;/td&gt;
+          &lt;td&gt;TV3 (Televisión de Catalunya)&lt;/td&gt;
+          &lt;td&gt;2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Eco Driver Project&lt;/td&gt;
+          &lt;td&gt;BTV (Barcelona TV)&lt;/td&gt;
+          &lt;td&gt;2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Eco Driver Project&lt;/td&gt;
+          &lt;td&gt;ETB (Euskal Telebista)&lt;/td&gt;
+          &lt;td&gt;2013&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Face Recognition at Madrid Barajas Airport&lt;/td&gt;
+          &lt;td&gt;Antena3&lt;/td&gt;
+          &lt;td&gt;2006&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://www.david-vazquez.com/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Team</title>
+      <link>https://www.david-vazquez.com/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.david-vazquez.com/team/</guid>
+      <description>&lt;h2 id=&#34;current-phd-interns-servicenow-research-2024-to-2025&#34;&gt;Current PhD Interns (ServiceNow Research, 2024 to 2025)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;University&lt;/th&gt;
+          &lt;th&gt;Supervisor&lt;/th&gt;
+          &lt;th&gt;Topic&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Zichao Li&lt;/td&gt;
+          &lt;td&gt;McGill&lt;/td&gt;
+          &lt;td&gt;Siva Reddy&lt;/td&gt;
+          &lt;td&gt;Multimodal Learning&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Tianyu Zhang&lt;/td&gt;
+          &lt;td&gt;UdeM&lt;/td&gt;
+          &lt;td&gt;Yoshua Bengio&lt;/td&gt;
+          &lt;td&gt;Multimodal Learning&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Suyuchen Wang&lt;/td&gt;
+          &lt;td&gt;UdeM&lt;/td&gt;
+          &lt;td&gt;Bang Liu&lt;/td&gt;
+          &lt;td&gt;Multimodal Learning&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Rabiul Awal&lt;/td&gt;
+          &lt;td&gt;UdeM&lt;/td&gt;
+          &lt;td&gt;A. Agrawal&lt;/td&gt;
+          &lt;td&gt;Multimodal Learning&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Xiangru Jian&lt;/td&gt;
+          &lt;td&gt;U. Waterloo&lt;/td&gt;
+          &lt;td&gt;Tamer Özsu&lt;/td&gt;
+          &lt;td&gt;Multimodal Learning&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Mahsa Massoud&lt;/td&gt;
+          &lt;td&gt;McGill&lt;/td&gt;
+          &lt;td&gt;S. Ravanbakhsh&lt;/td&gt;
+          &lt;td&gt;Multimodal Learning&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ahmed Masry&lt;/td&gt;
+          &lt;td&gt;U. York&lt;/td&gt;
+          &lt;td&gt;Enamul Hoque&lt;/td&gt;
+          &lt;td&gt;Multimodal Learning&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;A. Abaskohi&lt;/td&gt;
+          &lt;td&gt;UBC&lt;/td&gt;
+          &lt;td&gt;G. Carenini&lt;/td&gt;
+          &lt;td&gt;Data Analytics&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Léo Boisvert&lt;/td&gt;
+          &lt;td&gt;PolyMtl&lt;/td&gt;
+          &lt;td&gt;Quentin Cappart&lt;/td&gt;
+          &lt;td&gt;Web Agents&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;phd-thesis-supervision&#34;&gt;PhD Thesis Supervision&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;University&lt;/th&gt;
+          &lt;th&gt;Years&lt;/th&gt;
+          &lt;th&gt;Topic&lt;/th&gt;
+          &lt;th&gt;Current Position&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Daniel H. Juarez&lt;/td&gt;
+          &lt;td&gt;UAB&lt;/td&gt;
+          &lt;td&gt;2015 to 2020&lt;/td&gt;
+          &lt;td&gt;CUDA 3D Perception&lt;/td&gt;
+          &lt;td&gt;ML Compiler Engineer, AMD&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Zhijie Fang&lt;/td&gt;
+          &lt;td&gt;UAB&lt;/td&gt;
+          &lt;td&gt;2014 to 2017&lt;/td&gt;
+          &lt;td&gt;Pedestrian Intention&lt;/td&gt;
+          &lt;td&gt;Professor, NUS&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Alejandro González&lt;/td&gt;
+          &lt;td&gt;UAB&lt;/td&gt;
+          &lt;td&gt;2013 to 2015&lt;/td&gt;
+          &lt;td&gt;Pedestrian Detection&lt;/td&gt;
+          &lt;td&gt;Professor, La Salle&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;selected-intern-alumni&#34;&gt;Selected Intern Alumni&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;University&lt;/th&gt;
+          &lt;th&gt;Years&lt;/th&gt;
+          &lt;th&gt;Topic&lt;/th&gt;
+          &lt;th&gt;Current Position&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Juan A. Rodriguez&lt;/td&gt;
+          &lt;td&gt;UPF/Mila&lt;/td&gt;
+          &lt;td&gt;2021 to 2022&lt;/td&gt;
+          &lt;td&gt;Figure Generation&lt;/td&gt;
+          &lt;td&gt;Co-Founder &amp;amp; CEO, QuiverAI&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Oscar Mañas&lt;/td&gt;
+          &lt;td&gt;UAB&lt;/td&gt;
+          &lt;td&gt;2020 to 2021&lt;/td&gt;
+          &lt;td&gt;Remote Sensing&lt;/td&gt;
+          &lt;td&gt;PhD UdeM, Meta AI&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Bahare Fatemi&lt;/td&gt;
+          &lt;td&gt;UBC&lt;/td&gt;
+          &lt;td&gt;2019 to 2023&lt;/td&gt;
+          &lt;td&gt;Knowledge Graphs&lt;/td&gt;
+          &lt;td&gt;Research Scientist, Google&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sai Rajeswar&lt;/td&gt;
+          &lt;td&gt;UdeM&lt;/td&gt;
+          &lt;td&gt;2020 to 2023&lt;/td&gt;
+          &lt;td&gt;Image Generation&lt;/td&gt;
+          &lt;td&gt;Staff Research Scientist, ServiceNow&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Pau Rodríguez&lt;/td&gt;
+          &lt;td&gt;UAB&lt;/td&gt;
+          &lt;td&gt;2020 to 2021&lt;/td&gt;
+          &lt;td&gt;Low Data Learning&lt;/td&gt;
+          &lt;td&gt;Research Scientist, Apple&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Guillem Cucurull&lt;/td&gt;
+          &lt;td&gt;UAB&lt;/td&gt;
+          &lt;td&gt;2018 to 2019&lt;/td&gt;
+          &lt;td&gt;Graph Neural Nets&lt;/td&gt;
+          &lt;td&gt;Research Scientist, Meta AI&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Issam H. Laradji&lt;/td&gt;
+          &lt;td&gt;UBC&lt;/td&gt;
+          &lt;td&gt;2017 to 2020&lt;/td&gt;
+          &lt;td&gt;Low Data Learning&lt;/td&gt;
+          &lt;td&gt;Sr Staff Research Scientist, ServiceNow&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Massimo Caccia&lt;/td&gt;
+          &lt;td&gt;HEC&lt;/td&gt;
+          &lt;td&gt;2020 to 2022&lt;/td&gt;
+          &lt;td&gt;Continual Learning&lt;/td&gt;
+          &lt;td&gt;Research Scientist, ServiceNow&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Shengchao Liu&lt;/td&gt;
+          &lt;td&gt;UdeM&lt;/td&gt;
+          &lt;td&gt;2022 to 2023&lt;/td&gt;
+          &lt;td&gt;Relational Databases&lt;/td&gt;
+          &lt;td&gt;Postdoc, UC Berkeley&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;J. Materzynska&lt;/td&gt;
+          &lt;td&gt;UAB&lt;/td&gt;
+          &lt;td&gt;2015 to 2016&lt;/td&gt;
+          &lt;td&gt;Data Generation&lt;/td&gt;
+          &lt;td&gt;PhD student, MIT&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Eugenio Alcalá&lt;/td&gt;
+          &lt;td&gt;UPC&lt;/td&gt;
+          &lt;td&gt;2015 to 2016&lt;/td&gt;
+          &lt;td&gt;Control and Planning&lt;/td&gt;
+          &lt;td&gt;CEO, SeaX AI&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sebastian Ramos&lt;/td&gt;
+          &lt;td&gt;UAB&lt;/td&gt;
+          &lt;td&gt;2012 to 2014&lt;/td&gt;
+          &lt;td&gt;Scene Understanding&lt;/td&gt;
+          &lt;td&gt;CEO, Tensoreye&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;msc-thesis-supervision&#34;&gt;MSc Thesis Supervision&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;University&lt;/th&gt;
+          &lt;th&gt;Years&lt;/th&gt;
+          &lt;th&gt;Topic&lt;/th&gt;
+          &lt;th&gt;Current Position&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Marco Terral&lt;/td&gt;
+          &lt;td&gt;UAB&lt;/td&gt;
+          &lt;td&gt;2024 to 2025&lt;/td&gt;
+          &lt;td&gt;SVG Generation&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Jia Quian&lt;/td&gt;
+          &lt;td&gt;UPC&lt;/td&gt;
+          &lt;td&gt;2022 to 2023&lt;/td&gt;
+          &lt;td&gt;LLM Robot Control&lt;/td&gt;
+          &lt;td&gt;Founder, Theker&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Axel Barroso&lt;/td&gt;
+          &lt;td&gt;UAB&lt;/td&gt;
+          &lt;td&gt;2016 to 2017&lt;/td&gt;
+          &lt;td&gt;Keypoint Detection&lt;/td&gt;
+          &lt;td&gt;RS, Niantic&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Gabriel Villalonga&lt;/td&gt;
+          &lt;td&gt;UAB&lt;/td&gt;
+          &lt;td&gt;2014 to 2015&lt;/td&gt;
+          &lt;td&gt;3D Mapping&lt;/td&gt;
+          &lt;td&gt;RS, CVC&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
