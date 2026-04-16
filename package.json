@@ -2,5 +2,7 @@
   "name": "david-vazquez-site",
   "version": "1.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "tailwindcss": "^4.2.2"
+  }
 }

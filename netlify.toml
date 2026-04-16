@@ -1,10 +1,11 @@
 [build]
-  command = "npm install && hugo --gc --minify -b $URL && npx pagefind --source 'public'"
+  command = "npm install && PATH=$(npm bin):$PATH hugo --gc --minify -b $URL && npx pagefind --source 'public'"
   publish = "public"
 
 [build.environment]
   HUGO_VERSION = "0.160.0"
   HUGO_ENABLEGITINFO = "true"
+  NPM_FLAGS = "--no-fund"
 
 [context.production.environment]
   HUGO_ENV = "production"

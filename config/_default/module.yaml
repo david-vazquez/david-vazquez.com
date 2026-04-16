@@ -1,3 +1,4 @@
 noVendor: "github.com/HugoBlox/hugo-blox-builder/**"
 
-imports: []
+imports:
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
