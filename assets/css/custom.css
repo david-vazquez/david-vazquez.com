@@ -135,17 +135,17 @@ main {
 /* Bio photo float */
 .bio-photo-float {
   float: left;
-  width: 300px;
+  width: 380px;
   object-fit: cover;
   border-radius: 8px;
-  margin: 0 3rem 1.5rem 0;
+  margin: 0 4rem 1.5rem 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 @media (max-width: 768px) {
   .bio-photo-float {
-    width: 250px;
-    margin-right: 1.5rem;
+    width: 300px;
+    margin-right: 2rem;
   }
 }
 
