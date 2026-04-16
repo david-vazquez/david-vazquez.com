@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && export PATH=$PWD/node_modules/.bin:$PATH && hugo --gc --minify -b $URL && npx pagefind --source 'public'"
+  command = "npm install -g tailwindcss && npm install && hugo --gc --minify -b $URL && npx pagefind --source 'public'"
   publish = "public"
 
 [build.environment]
