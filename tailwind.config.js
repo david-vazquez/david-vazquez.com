@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './layouts/**/*.html',
@@ -7,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+  },
+  corePlugins: {
+    preflight: true,
   },
   plugins: [],
 }
