@@ -545,6 +545,25 @@ main {
 }
 
 /* Search box */
+/* Bio page photo spacing */
+.bio-photo-float {
+  float: left;
+  margin-right: 3rem !important;
+  margin-bottom: 1.5rem !important;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .bio-photo-float {
+    margin-right: 1.5rem !important;
+    max-width: 250px;
+  }
+}
+
+/* Search box */
 .pub-filter-search {
   margin-bottom: 1rem;
 }
