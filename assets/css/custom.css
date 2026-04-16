@@ -87,8 +87,6 @@ main {
 }
 
 
-/* Landing page section headings: consistent size */
-
 /* Compact landing page section spacing */
 .hbb-section.blox-markdown {
   padding-block: 0 !important;
@@ -137,12 +135,18 @@ main {
 /* Bio photo float */
 .bio-photo-float {
   float: left;
-  width: 500px;
-  height: 500px;
+  width: 300px;
   object-fit: cover;
   border-radius: 8px;
-  margin: 0.25rem 2rem 1rem 0;
+  margin: 0 3rem 1.5rem 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .bio-photo-float {
+    width: 250px;
+    margin-right: 1.5rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -151,7 +155,6 @@ main {
     display: block;
     margin: 0 auto 1rem;
     width: 200px;
-    height: 200px;
   }
 }
 
@@ -542,25 +545,6 @@ main {
 
 .pub-sidebar-body {
   padding: 0.75rem 1rem 1rem;
-}
-
-/* Search box */
-/* Bio page photo spacing */
-.bio-photo-float {
-  float: left;
-  margin-right: 3rem !important;
-  margin-bottom: 1.5rem !important;
-  margin-top: 0 !important;
-  margin-left: 0 !important;
-  max-width: 300px;
-  border-radius: 8px;
-}
-
-@media (max-width: 768px) {
-  .bio-photo-float {
-    margin-right: 1.5rem !important;
-    max-width: 250px;
-  }
 }
 
 /* Search box */
