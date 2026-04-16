@@ -21,6 +21,12 @@ sections:
       title: ''
       subtitle: ''
       text: |
+        <style>
+        .bio-photo-float {
+          margin-right: 2rem;
+        }
+        </style>
+
         <div class="bio-title-row">
           <h2 class="bio-title">Bio</h2>
           <a href="/files/cv.pdf" class="bio-cv-button" target="_blank">
