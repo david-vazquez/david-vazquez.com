@@ -23,7 +23,8 @@ sections:
       text: |
         <style>
         .bio-photo-float {
-          margin-right: 2rem;
+          margin-right: 3rem;
+          margin-bottom: 1.5rem;
         }
         </style>
 
