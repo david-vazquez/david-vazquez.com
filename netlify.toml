@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && PATH=$(npm bin):$PATH hugo --gc --minify -b $URL && npx pagefind --source 'public'"
+  command = "npm install && PATH=$(pwd)/node_modules/.bin:$PATH hugo --gc --minify -b $URL && npx pagefind --source 'public'"
   publish = "public"
 
 [build.environment]
