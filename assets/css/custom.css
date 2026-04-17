@@ -153,27 +153,26 @@ main {
 }
 
 /* Bio photo float */
-.bio-photo-float {
+.page-body .prose img.bio-photo-float {
   float: left;
-  width: 760px;
-  max-width: 50%;
+  width: 50%;
+  max-width: 1000px;
   object-fit: cover;
   border-radius: 8px;
-  margin: 0 2.5rem 1.5rem 0 !important;
+  margin: 0 2.5rem 1.5rem 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   border: 8px solid white;
 }
 
 @media (max-width: 768px) {
-  .bio-photo-float {
-    max-width: 45%;
+  .page-body .prose img.bio-photo-float {
     margin-right: 1.75rem;
     border-width: 6px;
   }
 }
 
 @media (max-width: 480px) {
-  .bio-photo-float {
+  .page-body .prose img.bio-photo-float {
     float: none;
     display: block;
     margin: 0 auto 1.5rem;

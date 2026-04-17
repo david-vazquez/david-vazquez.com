@@ -1,6 +1,6 @@
 ---
 title: 'Grounding Computer Use Agents on Human Demonstrations'
-date: '2025-01-01'
+date: '2026-01-01'
 draft: false
 authors:
   - Aarash Feizi

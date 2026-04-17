@@ -4,8 +4,28 @@
 {{ $block := .wcBlock }}
 
 {{/* Collect all publications */}}
-{{ $pubs := where site.RegularPages "Section" "publication" }}
-{{ $pubs = sort $pubs "Date" "desc" }}
+{{ $rawPubs := where site.RegularPages "Section" "publication" }}
+
+{{/* Build sortable slice: key = "YYYY_P" where lower = more recent + higher priority type */}}
+{{ $pubEntries := slice }}
+{{ range $rawPubs }}
+  {{ $type_raw := index .Params.publication_types 0 | default "" }}
+  {{ $priority := 9 }}
+  {{ if or (eq $type_raw "paper-conference") (eq $type_raw "1") }}{{ $priority = 1 }}
+  {{ else if or (eq $type_raw "article-journal") (eq $type_raw "2") }}{{ $priority = 2 }}
+  {{ else if eq $type_raw "paper-workshop" }}{{ $priority = 3 }}
+  {{ else if or (eq $type_raw "manuscript") (eq $type_raw "3") }}{{ $priority = 4 }}
+  {{ else if or (eq $type_raw "book") (eq $type_raw "5") (eq $type_raw "6") }}{{ $priority = 5 }}
+  {{ else if or (eq $type_raw "thesis") (eq $type_raw "7") }}{{ $priority = 6 }}
+  {{ else if eq $type_raw "patent" }}{{ $priority = 7 }}
+  {{ end }}
+  {{ $yearInv := sub 9999 .Date.Year }}
+  {{ $key := printf "%04d_%d" $yearInv $priority }}
+  {{ $pubEntries = $pubEntries | append (dict "page" . "key" $key) }}
+{{ end }}
+{{ $pubEntries = sort $pubEntries "key" "asc" }}
+{{ $pubs := slice }}
+{{ range $pubEntries }}{{ $pubs = $pubs | append .page }}{{ end }}
 
 {{/* Venue normalization map for edge cases */}}
 {{ $venueNorm := dict
@@ -24,23 +44,18 @@
 {{ $venues := dict }}
 
 {{ range $pubs }}
-  {{/* Types – detect workshops from venue name */}}
-  {{ $isWorkshop := false }}
-  {{ with .Params.publication }}
-    {{ $raw := . | replaceRE `^\*|\*$` "" | replaceRE `^\*|\*$` "" }}
-    {{ if findRE `(?i)^workshop|(?i)^CVPR Workshop` $raw }}{{ $isWorkshop = true }}{{ end }}
-  {{ end }}
+  {{/* Types */}}
   {{ range .Params.publication_types }}
     {{ $label := . }}
-    {{ if or (eq . "paper-conference") (eq . "1") }}{{ $label = "Conference Paper" }}
+    {{ if or (eq . "paper-conference") (eq . "1") }}{{ $label = "Conference Article" }}
     {{ else if or (eq . "article-journal") (eq . "2") }}{{ $label = "Journal Article" }}
-    {{ else if eq . "manuscript" }}{{ $label = "Preprint" }}
+    {{ else if eq . "paper-workshop" }}{{ $label = "Workshop Article" }}
+    {{ else if eq . "manuscript" }}{{ $label = "Preprint Article" }}
     {{ else if or (eq . "book") (eq . "5") (eq . "6") }}{{ $label = "Book / Chapter" }}
     {{ else if or (eq . "thesis") (eq . "7") }}{{ $label = "Thesis" }}
     {{ else if eq . "patent" }}{{ $label = "Patent" }}
-    {{ else if eq . "3" }}{{ $label = "Preprint" }}
+    {{ else if eq . "3" }}{{ $label = "Preprint Article" }}
     {{ end }}
-    {{ if $isWorkshop }}{{ $label = "Workshop" }}{{ end }}
     {{ $count := index $types $label | default 0 }}
     {{ $types = merge $types (dict $label (add $count 1)) }}
   {{ end }}
@@ -55,10 +70,11 @@
     {{ $v := . | replaceRE `^\*|\*$` "" | replaceRE `^\*|\*$` "" }}
     {{ if $v }}
       {{/* Extract acronym from parentheses, e.g. "Conference on X (CONF)" → "CONF" */}}
+      {{ $type_raw_facet := index $.Params.publication_types 0 | default "" }}
       {{ $acro := findRE `\(([^)]+)\)\s*$` $v }}
       {{ if $acro }}
         {{ $short := index $acro 0 | replaceRE `^\(|\)$` "" }}
-        {{ if findRE `(?i)^workshop` $v }}
+        {{ if eq $type_raw_facet "paper-workshop" }}
           {{ $v = printf "Workshop @ %s" $short }}
         {{ else }}
           {{ $v = $short }}
@@ -198,20 +214,20 @@
         {{ end }}
         {{ $type_raw := index .Params.publication_types 0 | default "" }}
         {{ $type_label := $type_raw }}
-        {{ if or (eq $type_raw "paper-conference") (eq $type_raw "1") }}{{ $type_label = "Conference Paper" }}
+        {{ if or (eq $type_raw "paper-conference") (eq $type_raw "1") }}{{ $type_label = "Conference Article" }}
         {{ else if or (eq $type_raw "article-journal") (eq $type_raw "2") }}{{ $type_label = "Journal Article" }}
-        {{ else if or (eq $type_raw "manuscript") (eq $type_raw "3") }}{{ $type_label = "Preprint" }}
+        {{ else if eq $type_raw "paper-workshop" }}{{ $type_label = "Workshop Article" }}
+        {{ else if or (eq $type_raw "manuscript") (eq $type_raw "3") }}{{ $type_label = "Preprint Article" }}
         {{ else if or (eq $type_raw "book") (eq $type_raw "5") (eq $type_raw "6") }}{{ $type_label = "Book / Chapter" }}
         {{ else if or (eq $type_raw "thesis") (eq $type_raw "7") }}{{ $type_label = "Thesis" }}
         {{ else if eq $type_raw "patent" }}{{ $type_label = "Patent" }}
         {{ end }}
         {{ $venueFull := .Params.publication | default "" | replaceRE `^\*|\*$` "" | replaceRE `^\*|\*$` "" }}
-        {{ if findRE `(?i)^workshop|(?i)^CVPR Workshop` $venueFull }}{{ $type_label = "Workshop" }}{{ end }}
         {{ $venue := $venueFull }}
         {{ $acro := findRE `\(([^)]+)\)\s*$` $venueFull }}
         {{ if $acro }}
           {{ $short := index $acro 0 | replaceRE `^\(|\)$` "" }}
-          {{ if findRE `(?i)^workshop` $venueFull }}
+          {{ if eq $type_raw "paper-workshop" }}
             {{ $venue = printf "Workshop @ %s" $short }}
           {{ else }}
             {{ $venue = $short }}

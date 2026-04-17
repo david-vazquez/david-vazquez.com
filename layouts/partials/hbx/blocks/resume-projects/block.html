@@ -26,8 +26,8 @@
                   class="relative z-10 flex h-[150px] w-[150px] items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                   {{- $img := resources.GetMatch (path.Join "media" .image) -}}
                   {{ with $img }}
-                  {{ $img = $img.Process "Fill 100x100 Center webp" }}
-                  <img alt="" class="h-[100px] w-[100px]" data-nimg="1" decoding="async" height="{{$img.Height}}" width="{{$img.Width}}" loading="lazy" src="{{$img.RelPermalink}}"
+                  {{ $img = $img.Process "Fit 100x100 webp" }}
+                  <img alt="" class="h-[100px] w-[100px] object-contain" data-nimg="1" decoding="async" height="{{$img.Height}}" width="{{$img.Width}}" loading="lazy" src="{{$img.RelPermalink}}"
                        style="color: transparent;">
                   {{ end}}
                 </div>

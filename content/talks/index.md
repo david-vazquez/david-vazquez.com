@@ -2,12 +2,18 @@
 title: Talks & Panels
 subtitle: Selected invited talks, panels, and demos
 type: page
+show_toc: false
+reading_time: false
+share: false
+pager: false
 ---
 
 ## Invited Talks
 
 | Talk | Venue | Date | Location |
 |------|-------|------|----------|
+| [Full Stack Benchmarking: Web Agents](https://www.youtube.com/watch?v=Xz7Est3JlBw&t=16290s) | DLBCN 2025 | 2025 | Barcelona, Spain |
+| [La VERDAD sobre la IA: cómo ServiceNow usa datos, energía y workflows para escalar](https://youtu.be/qCx6JxJLbSc?si=NXogPESTon786pTF) | Itnig | 2026 | Barcelona, Spain |
 | Generative Models in Computer Vision | Georgian | May 2021 | Toronto, Canada |
 | Low Data Learning in Computer Vision | USC | Apr 2021 | Santiago, Spain |
 | AI 101: Introduction to AI | Salesforce | Jun 2020 | Montreal, Canada |

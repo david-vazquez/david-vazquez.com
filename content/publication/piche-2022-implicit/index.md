@@ -9,7 +9,7 @@ authors:
   - Igor Mordatch
   - Chris Pal
 publication_types:
-  - 'paper-conference'
+  - 'paper-workshop'
 publication: '*Workshop at Advances in Neural Information Processing Systems (NeurIPS)*'
 abstract: 'Offline Reinforcement Learning (RL) via Supervised Learning is a simple and effective way to learn robotic skills from a dataset of varied behaviors. It is as simple as supervised learning and Behavior Cloning (BC) but takes advantage of the return information. On BC tasks, implicit models have been shown to match or outperform explicit ones. Despite the benefits of using implicit models to learn robotic skills via BC, Offline RL via Supervised Learning algorithms have been limited to explicit models. We show how implicit models leverage return information and match or outperform explicit algorithms to acquire robotic skills from fixed datasets. Furthermore, we show how closely related our implicit methods are to other popular RL via Supervised Learning algorithms.'
 featured: false
