@@ -17,11 +17,11 @@
 
 <div id="profile" class="resume-biography dark:text-white"
      style="display: flex; justify-content: center; padding: 2rem 10%;">
-  <div style="display: flex; align-items: center; gap: 2.5rem; max-width: 900px; width: 100%;">
+  <div class="resume-bio-inner" style="display: flex; align-items: center; gap: 2.5rem; max-width: 900px; width: 100%;">
 
   {{/* Avatar on the left */}}
   {{ if $avatar }}
-  <div style="flex-shrink: 0;">
+  <div class="resume-bio-avatar" style="flex-shrink: 0;">
     {{ $avatar_image := $avatar.Fill "300x300 Center" }}
     <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1"
          src="{{ $avatar_image.RelPermalink }}" alt="{{ $person_page.Title }}"
@@ -31,7 +31,7 @@
   {{ end }}
 
   {{/* Info on the right */}}
-  <div style="flex: 1; min-width: 0;">
+  <div class="resume-bio-text" style="flex: 1; min-width: 0;">
     <div class="text-4xl sm:text-5xl font-bold mb-2">
       {{- if $person.name_pronunciation -}}
         <ruby><rb>{{ $person_page.Title }}</rb><rt>{{ $person.name_pronunciation }}</rt></ruby>

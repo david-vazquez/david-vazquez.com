@@ -14,6 +14,26 @@
   padding-bottom: 1.5rem !important;
 }
 
+/* Mobile: stack banner image above text */
+@media (max-width: 640px) {
+  .resume-bio-inner {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.25rem !important;
+    text-align: center;
+  }
+  .resume-bio-avatar img {
+    width: 140px !important;
+    height: 140px !important;
+  }
+  .resume-bio-text {
+    width: 100%;
+  }
+  .resume-bio-inner ul.network-icon {
+    justify-content: center !important;
+  }
+}
+
 /* Ensure all social icon SVGs inherit text color (fixes X/Twitter black-on-black) */
 .network-icon svg path {
   fill: currentColor !important;
@@ -135,17 +155,27 @@ main {
 /* Bio photo float */
 .bio-photo-float {
   float: left;
-  width: 380px;
+  width: 760px;
+  max-width: 50%;
   object-fit: cover;
   border-radius: 8px;
-  margin: 0 4rem 1.5rem 0;
+  margin: 0 0 1.5rem 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 8px solid white;
+  padding-right: 2.5rem; /* white gap between image border and text */
+  box-sizing: content-box;
+}
+
+.dark .bio-photo-float {
+  border-color: rgb(17 24 39); /* matches dark background */
 }
 
 @media (max-width: 768px) {
   .bio-photo-float {
-    width: 300px;
-    margin-right: 2rem;
+    width: 260px;
+    max-width: 45%;
+    padding-right: 1.5rem;
+    border-width: 6px;
   }
 }
 
@@ -153,8 +183,11 @@ main {
   .bio-photo-float {
     float: none;
     display: block;
-    margin: 0 auto 1rem;
-    width: 200px;
+    margin: 0 auto 1.5rem;
+    width: 180px;
+    max-width: 70%;
+    padding-right: 0;
+    border-width: 5px;
   }
 }
 
