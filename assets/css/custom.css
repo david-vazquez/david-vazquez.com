@@ -159,22 +159,15 @@ main {
   max-width: 50%;
   object-fit: cover;
   border-radius: 8px;
-  margin: 0 0 1.5rem 0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 0 2.5rem 1.5rem 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   border: 8px solid white;
-  padding-right: 2.5rem; /* white gap between image border and text */
-  box-sizing: content-box;
-}
-
-.dark .bio-photo-float {
-  border-color: rgb(17 24 39); /* matches dark background */
 }
 
 @media (max-width: 768px) {
   .bio-photo-float {
-    width: 260px;
     max-width: 45%;
-    padding-right: 1.5rem;
+    margin-right: 1.75rem;
     border-width: 6px;
   }
 }
@@ -186,7 +179,6 @@ main {
     margin: 0 auto 1.5rem;
     width: 180px;
     max-width: 70%;
-    padding-right: 0;
     border-width: 5px;
   }
 }
